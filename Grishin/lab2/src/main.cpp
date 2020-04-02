@@ -19,6 +19,8 @@
 #define DIJKSTRA 1
 #define ASTAR 2
 
+#define TYPE    ASTAR // type there type of search
+
 class Graph{
     std::vector<Vertex*> vertices;
     std::ofstream log;  // log file descriptor
@@ -148,7 +150,7 @@ class Graph{
             // get vertex from top of stack
             Vertex *u = stack.top();
             if(logger)
-                log << "Vertex from top of stack id \'" << u->name << "\'" << std::endl;
+                log << "Vertex from top of stack is \'" << u->name << "\'" << std::endl;
 
             if(u == dst){
                 path_found = 1;
@@ -264,7 +266,7 @@ class Graph{
             }
 
             if(logger)
-                log << "Vertex \'" << u->name << "\' with least f score to src = " << f << std::endl;
+                log << "Vertex \'" << u->name << "\' with least f score = " << f << std::endl;
 
             // delete u from vertices set
             for(auto it = open.begin(); it < open.end(); it++){
@@ -581,7 +583,7 @@ int main(){
     }
 
     // get path between src and dst
-    auto path = graph->search(src, dst, ASTAR);
+    auto path = graph->search(src, dst, TYPE);
 
     // print path
     for(auto c: path){

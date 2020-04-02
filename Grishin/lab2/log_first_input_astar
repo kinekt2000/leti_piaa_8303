@@ -1,0 +1,35 @@
+Both vertices from 'a' and to 'b' are created
+Path from 'a' to 'b' is built
+
+Vertex to 'c' created
+Path from 'b' to 'c' is built
+
+Vertex to 'd' created
+Path from 'c' to 'd' is built
+
+Node a and node dare exist
+Path from 'a' to 'd' is built
+
+Vertex to 'e' created
+Path from 'd' to 'e' is built
+
+Initialized search from 'a' to 'e'
+Start A* search:
+Initialize A* algorithm
+Vertex 'a' with least f score = 4
+Unvisited neighbours are:
+'d' with new parameters: prev = 'a', dist = 5, f score = 6; earlier was: prev = 'nothing', dist = inf, f score = inf
+'b' with new parameters: prev = 'a', dist = 3, f score = 6; earlier was: prev = 'nothing', dist = inf, f score = inf
+Vertex 'b' with least f score = 6
+Unvisited neighbours are:
+'c' with new parameters: prev = 'b', dist = 4, f score = 6; earlier was: prev = 'nothing', dist = inf, f score = inf
+Vertex 'c' with least f score = 6
+Unvisited neighbours are:
+'d'
+Vertex 'd' with least f score = 6
+Unvisited neighbours are:
+'e' with new parameters: prev = 'd', dist = 6, f score = 6; earlier was: prev = 'nothing', dist = inf, f score = inf
+Vertex 'e' with least f score = 6
+path found: ade
+
+
