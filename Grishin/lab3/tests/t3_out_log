@@ -1,0 +1,62 @@
+============OUT============
+8
+a b 3
+a c 4
+a d 1
+b e 3
+c e 0
+c f 4
+d f 1
+d g 0
+e h 1
+e i 2
+f i 2
+f j 3
+h k 1
+i k 4
+j k 3
+==========END OUT==========
+
+
+============LOG============
+Added edge with capacity: 5 between a and b
+Added edge with capacity: 4 between a and c
+Added edge with capacity: 5 between a and d
+Added edge with capacity: 4 between b and e
+Added edge with capacity: 6 between c and e
+Added edge with capacity: 4 between c and f
+Added edge with capacity: 1 between d and f
+Added edge with capacity: 3 between d and g
+Added edge with capacity: 1 between e and h
+Added edge with capacity: 2 between e and i
+Added edge with capacity: 5 between f and i
+Added edge with capacity: 4 between f and j
+Added edge with capacity: 2 between h and k
+Added edge with capacity: 10 between i and k
+Added edge with capacity: 9 between j and k
+Added edge with capacity: 9 between j and k
+
+Ford-Fulkerson initiated
+iteration 1:
+path: a->[5;0]<-d->[1;0]<-f->[5;0]<-i->[10;0]<-k
+Path flow is 1
+
+iteration 2:
+path: a->[5;0]<-b->[4;0]<-e->[2;0]<-i->[9;1]<-k
+Path flow is 2
+
+iteration 3:
+path: a->[4;0]<-c->[6;0]<-e->[1;0]<-h->[2;0]<-k
+Path flow is 1
+
+iteration 4:
+path: a->[3;1]<-c->[4;0]<-f->[4;0]<-j->[9;0]<-k
+Path flow is 3
+
+iteration 5:
+path: a->[3;2]<-b->[2;2]<-e->[1;5]<-c->[1;3]<-f->[4;1]<-i->[7;3]<-k
+Path flow is 1
+
+Max Flow = 1 + 2 + 1 + 3 + 1 = 8
+==========END LOG==========
+
