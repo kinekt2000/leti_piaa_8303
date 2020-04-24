@@ -1,0 +1,49 @@
+============OUT============
+18
+a b 10
+a c 3
+a f 5
+b c 3
+b d 7
+c d 3
+c e 3
+d f 10
+e b 0
+e d 0
+e f 3
+==========END OUT==========
+
+
+============LOG============
+Added edge with capacity: 12 between a and b
+Added edge with capacity: 3 between a and c
+Added edge with capacity: 5 between a and f
+Added edge with capacity: 3 between b and c
+Added edge with capacity: 7 between b and d
+Added edge with capacity: 5 between c and d
+Added edge with capacity: 6 between c and e
+Added edge with capacity: 10 between d and f
+Added edge with capacity: 5 between e and b
+Added edge with capacity: 6 between e and d
+Added edge with capacity: 10 between e and f
+
+Ford-Fulkerson initiated
+iteration 1:
+path: a->[12;0]<-b->[7;0]<-d->[10;0]<-f
+Path flow is 7
+
+iteration 2:
+path: a->[5;0]<-f
+Path flow is 5
+
+iteration 3:
+path: a->[5;7]<-b->[3;0]<-c->[6;0]<-e->[10;0]<-f
+Path flow is 3
+
+iteration 4:
+path: a->[3;0]<-c->[5;0]<-d->[3;7]<-f
+Path flow is 3
+
+Max Flow = 7 + 5 + 3 + 3 = 18
+==========END LOG==========
+
