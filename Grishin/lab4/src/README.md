@@ -1,8 +1,8 @@
 ##### Building
-You can use the make file to build what you need
-type `make [program name]` without brackets
+You can use the make file to build what you need.
+type `make [program name]` without brackets.
 just like: `make KMP_search`
-
+  
 name of all other programs you can get by typing `make`
 
 
@@ -20,7 +20,6 @@ haystack string
 parts count
 needle
 ```
-
 
 ##### Log of programs
 You can type **name of file** as program argument,
