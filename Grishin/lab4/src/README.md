@@ -14,9 +14,11 @@ program "split_text" splits text into a given number of parts
 if this number too big for given pattern,
 it splits text using needle size
 input of program "split_text":
-```haystack string
+```
+haystack string
 parts count
-needle```
+needle
+```
 
 
 ##### Log of programs
