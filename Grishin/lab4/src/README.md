@@ -9,11 +9,11 @@ name of all other programs you can get by typing `make`
 ##### How to use
 programs "KMP_search" and "cyclic_shift"
 works the same way as on stepik.
-
+  
 program "split_text" splits text into a given number of parts
-if this number too big for given pattern,
-it splits text using needle size.     
-
+if this number too big for given pattern,it splits text using needle size.
+Then apllies the KMP to each part.
+  
 input of program "split_text":
 ```
 haystack string
