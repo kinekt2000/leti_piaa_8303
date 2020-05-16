@@ -125,6 +125,8 @@ auto KMPA(const std::string& haystack, const std::string& needle){
 }
 
 
+// wrapper over string
+// keeps index of string in the text
 class TextPart{
     friend class Splitter;
 
@@ -253,12 +255,16 @@ public:
         for(size_t i = 0; i < parts_count; i++)
         {
             std::string token;
-            //auto token_begin = text.begin() + i*part_length;
-            //auto token_end = text.begin() + (i+1)*part_length;
 
+            // if there is a residual text after division
             if(residual > 0)
             {
+                // extra_residual need to round up
+                // it didn't work without individual var
+                // so weird
                 bool extra_residual = (residual%(parts_count - i))?1:0;
+
+                // get part of residual text for this part
                 size_t extra = residual/(parts_count - i) + extra_residual;
 
                 if(log_file.is_open()){
@@ -269,6 +275,8 @@ public:
                 residual -= extra;
             }
 
+            // get token which overlaying next part by half of minimal part
+            // we should do this to miss needle entries on part borders 
             token.assign(token_begin, token_end+((i != parts_count-1)?connector:0));
             if(log_file.is_open()){
                 log_file << "Considering the overlay on the next part, \n"
@@ -278,9 +286,11 @@ public:
                          << " in the main text" << std::endl;
             }
 
+            // create text part with saving its index
             TextPart part(token, token_begin - text.begin());
             parts.emplace_back(part);
 
+            // move token definers
             token_begin = token_end;
             token_end += part_length;
         }
@@ -300,6 +310,7 @@ public:
 };
 
 
+// KMPA to all parts, then add offset of each part
 auto distributeText(const std::vector<TextPart>& parts, const std::string& needle){
     std::vector<int> overlaps;
     size_t i = 1;      
@@ -310,12 +321,14 @@ auto distributeText(const std::vector<TextPart>& parts, const std::string& needl
                      << "which has offset: " << part.index() << std::endl;
         }
 
+        // get entries of needle into part
         auto private_overlaps = KMPA(part.str(), needle);
 
         if(log_file.is_open()){
             log_file << "positions of needle in this haystack (with global offset):";
         }
 
+        // add offset of part to each index
         for(auto it = private_overlaps.begin();
             it != private_overlaps.end(); it++)
         {
@@ -334,6 +347,7 @@ auto distributeText(const std::vector<TextPart>& parts, const std::string& needl
             log_file << std::endl;
         }
 
+        // put them into vector with all indexes vector
         overlaps.insert(overlaps.end(), private_overlaps.begin(), private_overlaps.end());
     }
     if(log_file.is_open()){
@@ -349,25 +363,41 @@ int main(int argc, char* argv[]){
         log_file.open(argv[1], std::ios::out | std::ios::trunc);
     }
 
+    // initialize string to text and needle
     std::string text;
     std::string pattern;
+
+    // desired amount of parts
     size_t parts_count;
+
+    // size of needle
     size_t connector_size;
 
+    // get string using getline to read spaces too
     std::getline(std::cin, text);
+
+    // get desired amount of parts
     std::cin >> parts_count;
+
+    // get needle
     std::cin >> pattern;
 
+    // split text, using desired parts amount and needle size too
     Splitter splitter(text, parts_count, pattern.size());
+
+    // if splitter could not split the text, we can check the
+    // error in log file
     if(splitter.error() == Splitter::cannot_be_splitted){
         std::cout << "splitter error. check logs" << std::endl;
         return 1;
     }
 
+    // print parts we got
     for(auto& token: splitter.getParts()){
         std::cout << token.str() << "; " << token.index() << std::endl;
     }
 
+    // run KMPA to all parts and get indexes of needle
     auto overlaps = distributeText(splitter.getParts(), pattern);
 
     for(auto o: overlaps){

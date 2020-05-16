@@ -91,10 +91,16 @@ auto cyclicShift(const std::string& base, const std::string& shifted){
         log_file << std::endl;
     }
 
+    // Our haystack is a concatenation of shifted string with itself
+    // but there is no reason to create it
+    // we just go twise through or shifted string,
+    // using operator%
     for(size_t i = 0, j = 0; i < size*2-1; i++){
         auto ti = i;
         auto tj = j;
 
+        // we get real index of shifted string and
+        // compare it with needle
         if(shifted[i%size] == base[j]){
             j++;
             if(j == size){
@@ -105,6 +111,10 @@ auto cyclicShift(const std::string& base, const std::string& shifted){
                     logger(log_file, shifted, base, i, j-1);
                 }
 
+                // if we found our needle
+                // then return
+                // it means we return array with 1 element,
+                // I made it to keep signature similarity 
                 overlaps.push_back(i - j + 1);
                 return overlaps;
             }
