@@ -244,9 +244,11 @@ public:
         } 
 
         if(log_file.is_open()){
+            log_file << std::endl;
             log_file << "The whole text divided into " << parts_count << ",\n"
                      << "with a remainder of " << residual << std::endl;
             log_file << "A remainder will be distributed among parts" << std::endl;
+            log_file << std::endl << std::endl;
         }
 
         auto token_begin = text.begin();
@@ -400,9 +402,15 @@ int main(int argc, char* argv[]){
     // run KMPA to all parts and get indexes of needle
     auto overlaps = distributeText(splitter.getParts(), pattern);
 
-    for(auto o: overlaps){
-        std::cout << o << std::endl;
+    for(auto it = overlaps.begin(); it != overlaps.end(); it++){
+        if(it != overlaps.begin())
+            std::cout << ",";        
+        std::cout << *it; 
     }
+    if(overlaps.empty()){
+        std::cout << "nil";
+    }
+    std::cout << std::endl;
 
     return 0;
 }
