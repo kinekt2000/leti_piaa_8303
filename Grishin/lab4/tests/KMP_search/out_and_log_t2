@@ -1,0 +1,503 @@
+==========OUT==========
+14,22,38
+========END OUT========
+
+==========LOG==========
+prefix function initiated for "lilia" pattern
+prefix function is: 0 0 1 2 0
+
+initial state
+------------------------------------------------
+V
+parallelilimikliliarlililialilikoplilkliliaklili
+lilia
+^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+V
+parallelilimikliliarlililialilikoplilkliliaklili
+lilia
+^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+ V
+parallelilimikliliarlililialilikoplilkliliaklili
+ lilia
+ ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+  V
+parallelilimikliliarlililialilikoplilkliliaklili
+  lilia
+  ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+   V
+parallelilimikliliarlililialilikoplilkliliaklili
+   lilia
+   ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+    V
+parallelilimikliliarlililialilikoplilkliliaklili
+    lilia
+    ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------------------------
+     V
+parallelilimikliliarlililialilikoplilkliliaklili
+    lilia
+     ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+     V
+parallelilimikliliarlililialilikoplilkliliaklili
+     lilia
+     ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------------------------
+      V
+parallelilimikliliarlililialilikoplilkliliaklili
+     lilia
+      ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+      V
+parallelilimikliliarlililialilikoplilkliliaklili
+      lilia
+      ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+       V
+parallelilimikliliarlililialilikoplilkliliaklili
+       lilia
+       ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+        V
+parallelilimikliliarlililialilikoplilkliliaklili
+       lilia
+        ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+         V
+parallelilimikliliarlililialilikoplilkliliaklili
+       lilia
+         ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+          V
+parallelilimikliliarlililialilikoplilkliliaklili
+       lilia
+          ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 2
+------------------------------------------------
+           V
+parallelilimikliliarlililialilikoplilkliliaklili
+       lilia
+           ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------------------------
+           V
+parallelilimikliliarlililialilikoplilkliliaklili
+         lilia
+           ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+           V
+parallelilimikliliarlililialilikoplilkliliaklili
+           lilia
+           ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+            V
+parallelilimikliliarlililialilikoplilkliliaklili
+            lilia
+            ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+             V
+parallelilimikliliarlililialilikoplilkliliaklili
+             lilia
+             ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+              V
+parallelilimikliliarlililialilikoplilkliliaklili
+              lilia
+              ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+               V
+parallelilimikliliarlililialilikoplilkliliaklili
+              lilia
+               ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                V
+parallelilimikliliarlililialilikoplilkliliaklili
+              lilia
+                ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                 V
+parallelilimikliliarlililialilikoplilkliliaklili
+              lilia
+                 ^
+------------------------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------------------------
+                  V
+parallelilimikliliarlililialilikoplilkliliaklili
+              lilia
+                  ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+                   V
+parallelilimikliliarlililialilikoplilkliliaklili
+                   lilia
+                   ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                    V
+parallelilimikliliarlililialilikoplilkliliaklili
+                    lilia
+                    ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                     V
+parallelilimikliliarlililialilikoplilkliliaklili
+                    lilia
+                     ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                      V
+parallelilimikliliarlililialilikoplilkliliaklili
+                    lilia
+                      ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                       V
+parallelilimikliliarlililialilikoplilkliliaklili
+                    lilia
+                       ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 2
+------------------------------------------------
+                        V
+parallelilimikliliarlililialilikoplilkliliaklili
+                    lilia
+                        ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                        V
+parallelilimikliliarlililialilikoplilkliliaklili
+                      lilia
+                        ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                         V
+parallelilimikliliarlililialilikoplilkliliaklili
+                      lilia
+                         ^
+------------------------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------------------------
+                          V
+parallelilimikliliarlililialilikoplilkliliaklili
+                      lilia
+                          ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                           V
+parallelilimikliliarlililialilikoplilkliliaklili
+                           lilia
+                           ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                            V
+parallelilimikliliarlililialilikoplilkliliaklili
+                           lilia
+                            ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                             V
+parallelilimikliliarlililialilikoplilkliliaklili
+                           lilia
+                             ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                              V
+parallelilimikliliarlililialilikoplilkliliaklili
+                           lilia
+                              ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 2
+------------------------------------------------
+                               V
+parallelilimikliliarlililialilikoplilkliliaklili
+                           lilia
+                               ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------------------------
+                               V
+parallelilimikliliarlililialilikoplilkliliaklili
+                             lilia
+                               ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+                               V
+parallelilimikliliarlililialilikoplilkliliaklili
+                               lilia
+                               ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+                                V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                lilia
+                                ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+                                 V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                 lilia
+                                 ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                  V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                  lilia
+                                  ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                   V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                  lilia
+                                   ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                    V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                  lilia
+                                    ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 1
+------------------------------------------------
+                                     V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                  lilia
+                                     ^
+------------------------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------------------------
+                                     V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                    lilia
+                                     ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+                                     V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                     lilia
+                                     ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                      V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                      lilia
+                                      ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                       V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                      lilia
+                                       ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                        V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                      lilia
+                                        ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                         V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                      lilia
+                                         ^
+------------------------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------------------------
+                                          V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                      lilia
+                                          ^
+------------------------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------------------------
+                                           V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                           lilia
+                                           ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                            V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                            lilia
+                                            ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                             V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                            lilia
+                                             ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                              V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                            lilia
+                                              ^
+------------------------------------------------
+
+characters match, move carriage
+------------------------------------------------
+                                               V
+parallelilimikliliarlililialilikoplilkliliaklili
+                                            lilia
+                                               ^
+------------------------------------------------
+
+can't move carriage, end of string
+========END LOG========

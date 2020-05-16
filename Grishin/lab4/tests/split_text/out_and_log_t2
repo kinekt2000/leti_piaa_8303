@@ -1,0 +1,1841 @@
+==========OUT==========
+There was a fisherman n; 0
+ named Fisher who fishe; 21
+hed for some fish in a ; 42
+a fissure. Till a fish ; 63
+h with a grin, pulled t; 84
+ the fisherman in. Now ; 105
+w they're fishing the f; 126
+ fissure for Fisher.; 147
+12,39,55,81,110,136
+========END OUT========
+
+==========LOG==========
+splitter initiated
+
+The whole text divided into 8,
+with a remainder of 7
+A remainder will be distributed among parts
+
+There is 1 characters for 1 part
+Considering the overlay on the next part, 
+We've got part 1:
+There was a fisherman n
+which starts at index 0 in the main text
+
+There is 1 characters for 2 part
+Considering the overlay on the next part, 
+We've got part 2:
+ named Fisher who fishe
+which starts at index 21 in the main text
+
+There is 1 characters for 3 part
+Considering the overlay on the next part, 
+We've got part 3:
+hed for some fish in a 
+which starts at index 42 in the main text
+
+There is 1 characters for 4 part
+Considering the overlay on the next part, 
+We've got part 4:
+a fissure. Till a fish 
+which starts at index 63 in the main text
+
+There is 1 characters for 5 part
+Considering the overlay on the next part, 
+We've got part 5:
+h with a grin, pulled t
+which starts at index 84 in the main text
+
+There is 1 characters for 6 part
+Considering the overlay on the next part, 
+We've got part 6:
+ the fisherman in. Now 
+which starts at index 105 in the main text
+
+There is 1 characters for 7 part
+Considering the overlay on the next part, 
+We've got part 7:
+w they're fishing the f
+which starts at index 126 in the main text
+
+Considering the overlay on the next part, 
+We've got part 8:
+ fissure for Fisher.
+which starts at index 147 in the main text
+
+
+Start KMP for 1 part:
+There was a fisherman n
+which has offset: 0
+prefix function initiated for "fish" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-----------------------
+V
+There was a fisherman n
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+V
+There was a fisherman n
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+ V
+There was a fisherman n
+ fish
+ ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+  V
+There was a fisherman n
+  fish
+  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+   V
+There was a fisherman n
+   fish
+   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+    V
+There was a fisherman n
+    fish
+    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+     V
+There was a fisherman n
+     fish
+     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+      V
+There was a fisherman n
+      fish
+      ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+       V
+There was a fisherman n
+       fish
+       ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+        V
+There was a fisherman n
+        fish
+        ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+         V
+There was a fisherman n
+         fish
+         ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+          V
+There was a fisherman n
+          fish
+          ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+           V
+There was a fisherman n
+           fish
+           ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+            V
+There was a fisherman n
+            fish
+            ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+             V
+There was a fisherman n
+            fish
+             ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+              V
+There was a fisherman n
+            fish
+              ^
+-----------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-----------------------
+               V
+There was a fisherman n
+            fish
+               ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                V
+There was a fisherman n
+                fish
+                ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                 V
+There was a fisherman n
+                 fish
+                 ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                  V
+There was a fisherman n
+                  fish
+                  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                   V
+There was a fisherman n
+                   fish
+                   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                    V
+There was a fisherman n
+                    fish
+                    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                     V
+There was a fisherman n
+                     fish
+                     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                      V
+There was a fisherman n
+                      fish
+                      ^
+-----------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 12(12)
+Start KMP for 1 part:
+ named Fisher who fishe
+which has offset: 21
+prefix function initiated for "fish" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-----------------------
+V
+ named Fisher who fishe
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+V
+ named Fisher who fishe
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+ V
+ named Fisher who fishe
+ fish
+ ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+  V
+ named Fisher who fishe
+  fish
+  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+   V
+ named Fisher who fishe
+   fish
+   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+    V
+ named Fisher who fishe
+    fish
+    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+     V
+ named Fisher who fishe
+     fish
+     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+      V
+ named Fisher who fishe
+      fish
+      ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+       V
+ named Fisher who fishe
+       fish
+       ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+        V
+ named Fisher who fishe
+        fish
+        ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+         V
+ named Fisher who fishe
+         fish
+         ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+          V
+ named Fisher who fishe
+          fish
+          ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+           V
+ named Fisher who fishe
+           fish
+           ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+            V
+ named Fisher who fishe
+            fish
+            ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+             V
+ named Fisher who fishe
+             fish
+             ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+              V
+ named Fisher who fishe
+              fish
+              ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+               V
+ named Fisher who fishe
+               fish
+               ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                V
+ named Fisher who fishe
+                fish
+                ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                 V
+ named Fisher who fishe
+                 fish
+                 ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+                  V
+ named Fisher who fishe
+                  fish
+                  ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+                   V
+ named Fisher who fishe
+                  fish
+                   ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+                    V
+ named Fisher who fishe
+                  fish
+                    ^
+-----------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-----------------------
+                     V
+ named Fisher who fishe
+                  fish
+                     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                      V
+ named Fisher who fishe
+                      fish
+                      ^
+-----------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 18(39)
+Start KMP for 1 part:
+hed for some fish in a 
+which has offset: 42
+prefix function initiated for "fish" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-----------------------
+V
+hed for some fish in a 
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+V
+hed for some fish in a 
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+ V
+hed for some fish in a 
+ fish
+ ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+  V
+hed for some fish in a 
+  fish
+  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+   V
+hed for some fish in a 
+   fish
+   ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+    V
+hed for some fish in a 
+    fish
+    ^
+-----------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-----------------------
+     V
+hed for some fish in a 
+    fish
+     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+     V
+hed for some fish in a 
+     fish
+     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+      V
+hed for some fish in a 
+      fish
+      ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+       V
+hed for some fish in a 
+       fish
+       ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+        V
+hed for some fish in a 
+        fish
+        ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+         V
+hed for some fish in a 
+         fish
+         ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+          V
+hed for some fish in a 
+          fish
+          ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+           V
+hed for some fish in a 
+           fish
+           ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+            V
+hed for some fish in a 
+            fish
+            ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+             V
+hed for some fish in a 
+             fish
+             ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+              V
+hed for some fish in a 
+             fish
+              ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+               V
+hed for some fish in a 
+             fish
+               ^
+-----------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-----------------------
+                V
+hed for some fish in a 
+             fish
+                ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                 V
+hed for some fish in a 
+                 fish
+                 ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                  V
+hed for some fish in a 
+                  fish
+                  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                   V
+hed for some fish in a 
+                   fish
+                   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                    V
+hed for some fish in a 
+                    fish
+                    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                     V
+hed for some fish in a 
+                     fish
+                     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                      V
+hed for some fish in a 
+                      fish
+                      ^
+-----------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 13(55)
+Start KMP for 1 part:
+a fissure. Till a fish 
+which has offset: 63
+prefix function initiated for "fish" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-----------------------
+V
+a fissure. Till a fish 
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+V
+a fissure. Till a fish 
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+ V
+a fissure. Till a fish 
+ fish
+ ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+  V
+a fissure. Till a fish 
+  fish
+  ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+   V
+a fissure. Till a fish 
+  fish
+   ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+    V
+a fissure. Till a fish 
+  fish
+    ^
+-----------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-----------------------
+     V
+a fissure. Till a fish 
+  fish
+     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+     V
+a fissure. Till a fish 
+     fish
+     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+      V
+a fissure. Till a fish 
+      fish
+      ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+       V
+a fissure. Till a fish 
+       fish
+       ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+        V
+a fissure. Till a fish 
+        fish
+        ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+         V
+a fissure. Till a fish 
+         fish
+         ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+          V
+a fissure. Till a fish 
+          fish
+          ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+           V
+a fissure. Till a fish 
+           fish
+           ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+            V
+a fissure. Till a fish 
+            fish
+            ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+             V
+a fissure. Till a fish 
+             fish
+             ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+              V
+a fissure. Till a fish 
+              fish
+              ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+               V
+a fissure. Till a fish 
+               fish
+               ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                V
+a fissure. Till a fish 
+                fish
+                ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                 V
+a fissure. Till a fish 
+                 fish
+                 ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+                  V
+a fissure. Till a fish 
+                  fish
+                  ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+                   V
+a fissure. Till a fish 
+                  fish
+                   ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+                    V
+a fissure. Till a fish 
+                  fish
+                    ^
+-----------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-----------------------
+                     V
+a fissure. Till a fish 
+                  fish
+                     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                      V
+a fissure. Till a fish 
+                      fish
+                      ^
+-----------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 18(81)
+Start KMP for 1 part:
+h with a grin, pulled t
+which has offset: 84
+prefix function initiated for "fish" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-----------------------
+V
+h with a grin, pulled t
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+V
+h with a grin, pulled t
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+ V
+h with a grin, pulled t
+ fish
+ ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+  V
+h with a grin, pulled t
+  fish
+  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+   V
+h with a grin, pulled t
+   fish
+   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+    V
+h with a grin, pulled t
+    fish
+    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+     V
+h with a grin, pulled t
+     fish
+     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+      V
+h with a grin, pulled t
+      fish
+      ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+       V
+h with a grin, pulled t
+       fish
+       ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+        V
+h with a grin, pulled t
+        fish
+        ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+         V
+h with a grin, pulled t
+         fish
+         ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+          V
+h with a grin, pulled t
+          fish
+          ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+           V
+h with a grin, pulled t
+           fish
+           ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+            V
+h with a grin, pulled t
+            fish
+            ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+             V
+h with a grin, pulled t
+             fish
+             ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+              V
+h with a grin, pulled t
+              fish
+              ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+               V
+h with a grin, pulled t
+               fish
+               ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                V
+h with a grin, pulled t
+                fish
+                ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                 V
+h with a grin, pulled t
+                 fish
+                 ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                  V
+h with a grin, pulled t
+                  fish
+                  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                   V
+h with a grin, pulled t
+                   fish
+                   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                    V
+h with a grin, pulled t
+                    fish
+                    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                     V
+h with a grin, pulled t
+                     fish
+                     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                      V
+h with a grin, pulled t
+                      fish
+                      ^
+-----------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+ the fisherman in. Now 
+which has offset: 105
+prefix function initiated for "fish" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-----------------------
+V
+ the fisherman in. Now 
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+V
+ the fisherman in. Now 
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+ V
+ the fisherman in. Now 
+ fish
+ ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+  V
+ the fisherman in. Now 
+  fish
+  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+   V
+ the fisherman in. Now 
+   fish
+   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+    V
+ the fisherman in. Now 
+    fish
+    ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+     V
+ the fisherman in. Now 
+     fish
+     ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+      V
+ the fisherman in. Now 
+     fish
+      ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+       V
+ the fisherman in. Now 
+     fish
+       ^
+-----------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-----------------------
+        V
+ the fisherman in. Now 
+     fish
+        ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+         V
+ the fisherman in. Now 
+         fish
+         ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+          V
+ the fisherman in. Now 
+          fish
+          ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+           V
+ the fisherman in. Now 
+           fish
+           ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+            V
+ the fisherman in. Now 
+            fish
+            ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+             V
+ the fisherman in. Now 
+             fish
+             ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+              V
+ the fisherman in. Now 
+              fish
+              ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+               V
+ the fisherman in. Now 
+               fish
+               ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                V
+ the fisherman in. Now 
+                fish
+                ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                 V
+ the fisherman in. Now 
+                 fish
+                 ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                  V
+ the fisherman in. Now 
+                  fish
+                  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                   V
+ the fisherman in. Now 
+                   fish
+                   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                    V
+ the fisherman in. Now 
+                    fish
+                    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                     V
+ the fisherman in. Now 
+                     fish
+                     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                      V
+ the fisherman in. Now 
+                      fish
+                      ^
+-----------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 5(110)
+Start KMP for 1 part:
+w they're fishing the f
+which has offset: 126
+prefix function initiated for "fish" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-----------------------
+V
+w they're fishing the f
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+V
+w they're fishing the f
+fish
+^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+ V
+w they're fishing the f
+ fish
+ ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+  V
+w they're fishing the f
+  fish
+  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+   V
+w they're fishing the f
+   fish
+   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+    V
+w they're fishing the f
+    fish
+    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+     V
+w they're fishing the f
+     fish
+     ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+      V
+w they're fishing the f
+      fish
+      ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+       V
+w they're fishing the f
+       fish
+       ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+        V
+w they're fishing the f
+        fish
+        ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+         V
+w they're fishing the f
+         fish
+         ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+          V
+w they're fishing the f
+          fish
+          ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+           V
+w they're fishing the f
+          fish
+           ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+            V
+w they're fishing the f
+          fish
+            ^
+-----------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-----------------------
+             V
+w they're fishing the f
+          fish
+             ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+              V
+w they're fishing the f
+              fish
+              ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+               V
+w they're fishing the f
+               fish
+               ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                V
+w they're fishing the f
+                fish
+                ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                 V
+w they're fishing the f
+                 fish
+                 ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                  V
+w they're fishing the f
+                  fish
+                  ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                   V
+w they're fishing the f
+                   fish
+                   ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                    V
+w they're fishing the f
+                    fish
+                    ^
+-----------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------------
+                     V
+w they're fishing the f
+                     fish
+                     ^
+-----------------------
+
+characters match, move carriage
+-----------------------
+                      V
+w they're fishing the f
+                      fish
+                      ^
+-----------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 10(136)
+Start KMP for 1 part:
+ fissure for Fisher.
+which has offset: 147
+prefix function initiated for "fish" pattern
+prefix function is: 0 0 0 0
+
+initial state
+--------------------
+V
+ fissure for Fisher.
+fish
+^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+V
+ fissure for Fisher.
+fish
+^
+--------------------
+
+characters match, move carriage
+--------------------
+ V
+ fissure for Fisher.
+ fish
+ ^
+--------------------
+
+characters match, move carriage
+--------------------
+  V
+ fissure for Fisher.
+ fish
+  ^
+--------------------
+
+characters match, move carriage
+--------------------
+   V
+ fissure for Fisher.
+ fish
+   ^
+--------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+--------------------
+    V
+ fissure for Fisher.
+ fish
+    ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+    V
+ fissure for Fisher.
+    fish
+    ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+     V
+ fissure for Fisher.
+     fish
+     ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+      V
+ fissure for Fisher.
+      fish
+      ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+       V
+ fissure for Fisher.
+       fish
+       ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+        V
+ fissure for Fisher.
+        fish
+        ^
+--------------------
+
+characters match, move carriage
+--------------------
+         V
+ fissure for Fisher.
+         fish
+         ^
+--------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+--------------------
+          V
+ fissure for Fisher.
+         fish
+          ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+          V
+ fissure for Fisher.
+          fish
+          ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+           V
+ fissure for Fisher.
+           fish
+           ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+            V
+ fissure for Fisher.
+            fish
+            ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+             V
+ fissure for Fisher.
+             fish
+             ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+              V
+ fissure for Fisher.
+              fish
+              ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+               V
+ fissure for Fisher.
+               fish
+               ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                V
+ fissure for Fisher.
+                fish
+                ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                 V
+ fissure for Fisher.
+                 fish
+                 ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                  V
+ fissure for Fisher.
+                  fish
+                  ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                   V
+ fissure for Fisher.
+                   fish
+                   ^
+--------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+
+========END LOG========

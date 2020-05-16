@@ -1,0 +1,288 @@
+==========OUT==========
+nil
+========END OUT========
+
+==========LOG==========
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+------------------------------
+V
+thisstringdoesnotcontainneedle
+poof
+^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+V
+thisstringdoesnotcontainneedle
+poof
+^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+ V
+thisstringdoesnotcontainneedle
+ poof
+ ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+  V
+thisstringdoesnotcontainneedle
+  poof
+  ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+   V
+thisstringdoesnotcontainneedle
+   poof
+   ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+    V
+thisstringdoesnotcontainneedle
+    poof
+    ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+     V
+thisstringdoesnotcontainneedle
+     poof
+     ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+      V
+thisstringdoesnotcontainneedle
+      poof
+      ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+       V
+thisstringdoesnotcontainneedle
+       poof
+       ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+        V
+thisstringdoesnotcontainneedle
+        poof
+        ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+         V
+thisstringdoesnotcontainneedle
+         poof
+         ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+          V
+thisstringdoesnotcontainneedle
+          poof
+          ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+           V
+thisstringdoesnotcontainneedle
+           poof
+           ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+            V
+thisstringdoesnotcontainneedle
+            poof
+            ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+             V
+thisstringdoesnotcontainneedle
+             poof
+             ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+              V
+thisstringdoesnotcontainneedle
+              poof
+              ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+               V
+thisstringdoesnotcontainneedle
+               poof
+               ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                V
+thisstringdoesnotcontainneedle
+                poof
+                ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                 V
+thisstringdoesnotcontainneedle
+                 poof
+                 ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                  V
+thisstringdoesnotcontainneedle
+                  poof
+                  ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                   V
+thisstringdoesnotcontainneedle
+                   poof
+                   ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                    V
+thisstringdoesnotcontainneedle
+                    poof
+                    ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                     V
+thisstringdoesnotcontainneedle
+                     poof
+                     ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                      V
+thisstringdoesnotcontainneedle
+                      poof
+                      ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                       V
+thisstringdoesnotcontainneedle
+                       poof
+                       ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                        V
+thisstringdoesnotcontainneedle
+                        poof
+                        ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                         V
+thisstringdoesnotcontainneedle
+                         poof
+                         ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                          V
+thisstringdoesnotcontainneedle
+                          poof
+                          ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                           V
+thisstringdoesnotcontainneedle
+                           poof
+                           ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                            V
+thisstringdoesnotcontainneedle
+                            poof
+                            ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                             V
+thisstringdoesnotcontainneedle
+                             poof
+                             ^
+------------------------------
+
+can't move carriage, end of string
+========END LOG========

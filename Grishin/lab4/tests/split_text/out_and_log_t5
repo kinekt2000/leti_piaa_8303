@@ -1,0 +1,8 @@
+==========OUT==========
+splitter error. check logs
+========END OUT========
+
+==========LOG==========
+splitter initiated
+splitter error: minimal part bigger than whole text
+========END LOG========

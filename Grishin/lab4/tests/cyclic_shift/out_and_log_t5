@@ -1,0 +1,229 @@
+==========OUT==========
+nil
+========END OUT========
+
+==========LOG==========
+Imagine the haystack like concatenation of shifted string with itself, 
+and the base string as the needle
+
+prefix function initiated for "iftedstrings" pattern
+prefix function is: 0 0 0 0 0 0 0 0 1 0 0 0
+
+initial state
+-----------------------
+V
+therearentshtherearents
+iftedstrings
+^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+V
+therearentshtherearents
+iftedstrings
+^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+ V
+therearentshtherearents
+ iftedstrings
+ ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+  V
+therearentshtherearents
+  iftedstrings
+  ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+   V
+therearentshtherearents
+   iftedstrings
+   ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+    V
+therearentshtherearents
+    iftedstrings
+    ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+     V
+therearentshtherearents
+     iftedstrings
+     ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+      V
+therearentshtherearents
+      iftedstrings
+      ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+       V
+therearentshtherearents
+       iftedstrings
+       ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+        V
+therearentshtherearents
+        iftedstrings
+        ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+         V
+therearentshtherearents
+         iftedstrings
+         ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+          V
+therearentshtherearents
+          iftedstrings
+          ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+           V
+therearentshtherearents
+           iftedstrings
+           ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+            V
+therearentshtherearents
+            iftedstrings
+            ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+             V
+therearentshtherearents
+             iftedstrings
+             ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+              V
+therearentshtherearents
+              iftedstrings
+              ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+               V
+therearentshtherearents
+               iftedstrings
+               ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+                V
+therearentshtherearents
+                iftedstrings
+                ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+                 V
+therearentshtherearents
+                 iftedstrings
+                 ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+                  V
+therearentshtherearents
+                  iftedstrings
+                  ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+                   V
+therearentshtherearents
+                   iftedstrings
+                   ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+                    V
+therearentshtherearents
+                    iftedstrings
+                    ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+                     V
+therearentshtherearents
+                     iftedstrings
+                     ^
+-----------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-----------------------
+                      V
+therearentshtherearents
+                      iftedstrings
+                      ^
+-----------------------
+
+can't move carriage, there is no base in shifted string
+========END LOG========
+

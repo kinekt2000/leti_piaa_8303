@@ -1,0 +1,126 @@
+==========OUT==========
+0
+========END OUT========
+
+==========LOG==========
+Imagine the haystack like concatenation of shifted string with itself, 
+and the base string as the needle
+
+prefix function initiated for "aaaaaaaaaaaaa" pattern
+prefix function is: 0 1 2 3 4 5 6 7 8 9 10 11 12
+
+initial state
+-------------------------
+V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+^
+-------------------------
+
+characters match, move carriage
+-------------------------
+V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+^
+-------------------------
+
+characters match, move carriage
+-------------------------
+ V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+ ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+  V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+  ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+   V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+   ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+    V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+    ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+     V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+     ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+      V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+      ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+       V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+       ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+        V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+        ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+         V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+         ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+          V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+          ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+           V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+           ^
+-------------------------
+
+charachers match,
+pattern carriage equal to pattern size
+it means, we found the shift of base string
+-------------------------
+            V
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa
+            ^
+-------------------------
+========END LOG========
+

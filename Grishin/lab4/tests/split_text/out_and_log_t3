@@ -1,0 +1,2535 @@
+==========OUT==========
+Luke Luck likes lake; 0
+kes. Luke's duck lik; 18
+ikes lakes. Luke Luc; 36
+uck licks lakes. Lu; 54
+Luck's duck licks l; 71
+ lakes. Duck takes ; 88
+s licks in lakes Lu; 105
+Luke Luck likes. Lu; 122
+Luke Luck takes lic; 139
+icks in lakes duck ; 156
+k likes. And you sh; 173
+should know, there ; 190
+e is no needle :); 207
+nil
+========END OUT========
+
+==========LOG==========
+splitter initiated
+
+The whole text divided into 13,
+with a remainder of 3
+A remainder will be distributed among parts
+
+There is 1 characters for 1 part
+Considering the overlay on the next part, 
+We've got part 1:
+Luke Luck likes lake
+which starts at index 0 in the main text
+
+There is 1 characters for 2 part
+Considering the overlay on the next part, 
+We've got part 2:
+kes. Luke's duck lik
+which starts at index 18 in the main text
+
+There is 1 characters for 3 part
+Considering the overlay on the next part, 
+We've got part 3:
+ikes lakes. Luke Luc
+which starts at index 36 in the main text
+
+Considering the overlay on the next part, 
+We've got part 4:
+uck licks lakes. Lu
+which starts at index 54 in the main text
+
+Considering the overlay on the next part, 
+We've got part 5:
+Luck's duck licks l
+which starts at index 71 in the main text
+
+Considering the overlay on the next part, 
+We've got part 6:
+ lakes. Duck takes 
+which starts at index 88 in the main text
+
+Considering the overlay on the next part, 
+We've got part 7:
+s licks in lakes Lu
+which starts at index 105 in the main text
+
+Considering the overlay on the next part, 
+We've got part 8:
+Luke Luck likes. Lu
+which starts at index 122 in the main text
+
+Considering the overlay on the next part, 
+We've got part 9:
+Luke Luck takes lic
+which starts at index 139 in the main text
+
+Considering the overlay on the next part, 
+We've got part 10:
+icks in lakes duck 
+which starts at index 156 in the main text
+
+Considering the overlay on the next part, 
+We've got part 11:
+k likes. And you sh
+which starts at index 173 in the main text
+
+Considering the overlay on the next part, 
+We've got part 12:
+should know, there 
+which starts at index 190 in the main text
+
+Considering the overlay on the next part, 
+We've got part 13:
+e is no needle :)
+which starts at index 207 in the main text
+
+
+Start KMP for 1 part:
+Luke Luck likes lake
+which has offset: 0
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+--------------------
+V
+Luke Luck likes lake
+poof
+^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+V
+Luke Luck likes lake
+poof
+^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+ V
+Luke Luck likes lake
+ poof
+ ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+  V
+Luke Luck likes lake
+  poof
+  ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+   V
+Luke Luck likes lake
+   poof
+   ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+    V
+Luke Luck likes lake
+    poof
+    ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+     V
+Luke Luck likes lake
+     poof
+     ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+      V
+Luke Luck likes lake
+      poof
+      ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+       V
+Luke Luck likes lake
+       poof
+       ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+        V
+Luke Luck likes lake
+        poof
+        ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+         V
+Luke Luck likes lake
+         poof
+         ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+          V
+Luke Luck likes lake
+          poof
+          ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+           V
+Luke Luck likes lake
+           poof
+           ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+            V
+Luke Luck likes lake
+            poof
+            ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+             V
+Luke Luck likes lake
+             poof
+             ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+              V
+Luke Luck likes lake
+              poof
+              ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+               V
+Luke Luck likes lake
+               poof
+               ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                V
+Luke Luck likes lake
+                poof
+                ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                 V
+Luke Luck likes lake
+                 poof
+                 ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                  V
+Luke Luck likes lake
+                  poof
+                  ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                   V
+Luke Luck likes lake
+                   poof
+                   ^
+--------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+kes. Luke's duck lik
+which has offset: 18
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+--------------------
+V
+kes. Luke's duck lik
+poof
+^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+V
+kes. Luke's duck lik
+poof
+^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+ V
+kes. Luke's duck lik
+ poof
+ ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+  V
+kes. Luke's duck lik
+  poof
+  ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+   V
+kes. Luke's duck lik
+   poof
+   ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+    V
+kes. Luke's duck lik
+    poof
+    ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+     V
+kes. Luke's duck lik
+     poof
+     ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+      V
+kes. Luke's duck lik
+      poof
+      ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+       V
+kes. Luke's duck lik
+       poof
+       ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+        V
+kes. Luke's duck lik
+        poof
+        ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+         V
+kes. Luke's duck lik
+         poof
+         ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+          V
+kes. Luke's duck lik
+          poof
+          ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+           V
+kes. Luke's duck lik
+           poof
+           ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+            V
+kes. Luke's duck lik
+            poof
+            ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+             V
+kes. Luke's duck lik
+             poof
+             ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+              V
+kes. Luke's duck lik
+              poof
+              ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+               V
+kes. Luke's duck lik
+               poof
+               ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                V
+kes. Luke's duck lik
+                poof
+                ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                 V
+kes. Luke's duck lik
+                 poof
+                 ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                  V
+kes. Luke's duck lik
+                  poof
+                  ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                   V
+kes. Luke's duck lik
+                   poof
+                   ^
+--------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+ikes lakes. Luke Luc
+which has offset: 36
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+--------------------
+V
+ikes lakes. Luke Luc
+poof
+^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+V
+ikes lakes. Luke Luc
+poof
+^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+ V
+ikes lakes. Luke Luc
+ poof
+ ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+  V
+ikes lakes. Luke Luc
+  poof
+  ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+   V
+ikes lakes. Luke Luc
+   poof
+   ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+    V
+ikes lakes. Luke Luc
+    poof
+    ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+     V
+ikes lakes. Luke Luc
+     poof
+     ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+      V
+ikes lakes. Luke Luc
+      poof
+      ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+       V
+ikes lakes. Luke Luc
+       poof
+       ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+        V
+ikes lakes. Luke Luc
+        poof
+        ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+         V
+ikes lakes. Luke Luc
+         poof
+         ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+          V
+ikes lakes. Luke Luc
+          poof
+          ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+           V
+ikes lakes. Luke Luc
+           poof
+           ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+            V
+ikes lakes. Luke Luc
+            poof
+            ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+             V
+ikes lakes. Luke Luc
+             poof
+             ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+              V
+ikes lakes. Luke Luc
+              poof
+              ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+               V
+ikes lakes. Luke Luc
+               poof
+               ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                V
+ikes lakes. Luke Luc
+                poof
+                ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                 V
+ikes lakes. Luke Luc
+                 poof
+                 ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                  V
+ikes lakes. Luke Luc
+                  poof
+                  ^
+--------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+--------------------
+                   V
+ikes lakes. Luke Luc
+                   poof
+                   ^
+--------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+uck licks lakes. Lu
+which has offset: 54
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+uck licks lakes. Lu
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+uck licks lakes. Lu
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+uck licks lakes. Lu
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+uck licks lakes. Lu
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+uck licks lakes. Lu
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+uck licks lakes. Lu
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+uck licks lakes. Lu
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+uck licks lakes. Lu
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+uck licks lakes. Lu
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+uck licks lakes. Lu
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+uck licks lakes. Lu
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+uck licks lakes. Lu
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+uck licks lakes. Lu
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+uck licks lakes. Lu
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+uck licks lakes. Lu
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+uck licks lakes. Lu
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+uck licks lakes. Lu
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+uck licks lakes. Lu
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+uck licks lakes. Lu
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+uck licks lakes. Lu
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+Luck's duck licks l
+which has offset: 71
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+Luck's duck licks l
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+Luck's duck licks l
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+Luck's duck licks l
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+Luck's duck licks l
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+Luck's duck licks l
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+Luck's duck licks l
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+Luck's duck licks l
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+Luck's duck licks l
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+Luck's duck licks l
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+Luck's duck licks l
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+Luck's duck licks l
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+Luck's duck licks l
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+Luck's duck licks l
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+Luck's duck licks l
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+Luck's duck licks l
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+Luck's duck licks l
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+Luck's duck licks l
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+Luck's duck licks l
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+Luck's duck licks l
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+Luck's duck licks l
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+ lakes. Duck takes 
+which has offset: 88
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+ lakes. Duck takes 
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+ lakes. Duck takes 
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+ lakes. Duck takes 
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+ lakes. Duck takes 
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+ lakes. Duck takes 
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+ lakes. Duck takes 
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+ lakes. Duck takes 
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+ lakes. Duck takes 
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+ lakes. Duck takes 
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+ lakes. Duck takes 
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+ lakes. Duck takes 
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+ lakes. Duck takes 
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+ lakes. Duck takes 
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+ lakes. Duck takes 
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+ lakes. Duck takes 
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+ lakes. Duck takes 
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+ lakes. Duck takes 
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+ lakes. Duck takes 
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+ lakes. Duck takes 
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+ lakes. Duck takes 
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+s licks in lakes Lu
+which has offset: 105
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+s licks in lakes Lu
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+s licks in lakes Lu
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+s licks in lakes Lu
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+s licks in lakes Lu
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+s licks in lakes Lu
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+s licks in lakes Lu
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+s licks in lakes Lu
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+s licks in lakes Lu
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+s licks in lakes Lu
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+s licks in lakes Lu
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+s licks in lakes Lu
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+s licks in lakes Lu
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+s licks in lakes Lu
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+s licks in lakes Lu
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+s licks in lakes Lu
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+s licks in lakes Lu
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+s licks in lakes Lu
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+s licks in lakes Lu
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+s licks in lakes Lu
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+s licks in lakes Lu
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+Luke Luck likes. Lu
+which has offset: 122
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+Luke Luck likes. Lu
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+Luke Luck likes. Lu
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+Luke Luck likes. Lu
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+Luke Luck likes. Lu
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+Luke Luck likes. Lu
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+Luke Luck likes. Lu
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+Luke Luck likes. Lu
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+Luke Luck likes. Lu
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+Luke Luck likes. Lu
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+Luke Luck likes. Lu
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+Luke Luck likes. Lu
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+Luke Luck likes. Lu
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+Luke Luck likes. Lu
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+Luke Luck likes. Lu
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+Luke Luck likes. Lu
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+Luke Luck likes. Lu
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+Luke Luck likes. Lu
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+Luke Luck likes. Lu
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+Luke Luck likes. Lu
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+Luke Luck likes. Lu
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+Luke Luck takes lic
+which has offset: 139
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+Luke Luck takes lic
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+Luke Luck takes lic
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+Luke Luck takes lic
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+Luke Luck takes lic
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+Luke Luck takes lic
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+Luke Luck takes lic
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+Luke Luck takes lic
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+Luke Luck takes lic
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+Luke Luck takes lic
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+Luke Luck takes lic
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+Luke Luck takes lic
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+Luke Luck takes lic
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+Luke Luck takes lic
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+Luke Luck takes lic
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+Luke Luck takes lic
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+Luke Luck takes lic
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+Luke Luck takes lic
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+Luke Luck takes lic
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+Luke Luck takes lic
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+Luke Luck takes lic
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+icks in lakes duck 
+which has offset: 156
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+icks in lakes duck 
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+icks in lakes duck 
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+icks in lakes duck 
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+icks in lakes duck 
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+icks in lakes duck 
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+icks in lakes duck 
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+icks in lakes duck 
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+icks in lakes duck 
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+icks in lakes duck 
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+icks in lakes duck 
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+icks in lakes duck 
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+icks in lakes duck 
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+icks in lakes duck 
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+icks in lakes duck 
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+icks in lakes duck 
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+icks in lakes duck 
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+icks in lakes duck 
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+icks in lakes duck 
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+icks in lakes duck 
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+icks in lakes duck 
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+k likes. And you sh
+which has offset: 173
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+k likes. And you sh
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+k likes. And you sh
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+k likes. And you sh
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+k likes. And you sh
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+k likes. And you sh
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+k likes. And you sh
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+k likes. And you sh
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+k likes. And you sh
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+k likes. And you sh
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+k likes. And you sh
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+k likes. And you sh
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+k likes. And you sh
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+k likes. And you sh
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+k likes. And you sh
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+k likes. And you sh
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+k likes. And you sh
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+k likes. And you sh
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+k likes. And you sh
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+k likes. And you sh
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+k likes. And you sh
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+should know, there 
+which has offset: 190
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------
+V
+should know, there 
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+V
+should know, there 
+poof
+^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+ V
+should know, there 
+ poof
+ ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+  V
+should know, there 
+  poof
+  ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+   V
+should know, there 
+   poof
+   ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+    V
+should know, there 
+    poof
+    ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+     V
+should know, there 
+     poof
+     ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+      V
+should know, there 
+      poof
+      ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+       V
+should know, there 
+       poof
+       ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+        V
+should know, there 
+        poof
+        ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+         V
+should know, there 
+         poof
+         ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+          V
+should know, there 
+          poof
+          ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+           V
+should know, there 
+           poof
+           ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+            V
+should know, there 
+            poof
+            ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+             V
+should know, there 
+             poof
+             ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+              V
+should know, there 
+              poof
+              ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+               V
+should know, there 
+               poof
+               ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                V
+should know, there 
+                poof
+                ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                 V
+should know, there 
+                 poof
+                 ^
+-------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------
+                  V
+should know, there 
+                  poof
+                  ^
+-------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+e is no needle :)
+which has offset: 207
+prefix function initiated for "poof" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-----------------
+V
+e is no needle :)
+poof
+^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+V
+e is no needle :)
+poof
+^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+ V
+e is no needle :)
+ poof
+ ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+  V
+e is no needle :)
+  poof
+  ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+   V
+e is no needle :)
+   poof
+   ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+    V
+e is no needle :)
+    poof
+    ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+     V
+e is no needle :)
+     poof
+     ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+      V
+e is no needle :)
+      poof
+      ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+       V
+e is no needle :)
+       poof
+       ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+        V
+e is no needle :)
+        poof
+        ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+         V
+e is no needle :)
+         poof
+         ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+          V
+e is no needle :)
+          poof
+          ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+           V
+e is no needle :)
+           poof
+           ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+            V
+e is no needle :)
+            poof
+            ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+             V
+e is no needle :)
+             poof
+             ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+              V
+e is no needle :)
+              poof
+              ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+               V
+e is no needle :)
+               poof
+               ^
+-----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-----------------
+                V
+e is no needle :)
+                poof
+                ^
+-----------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+
+========END LOG========

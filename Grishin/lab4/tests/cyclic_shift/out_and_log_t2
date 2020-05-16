@@ -1,0 +1,111 @@
+==========OUT==========
+1
+========END OUT========
+
+==========LOG==========
+Imagine the haystack like concatenation of shifted string with itself, 
+and the base string as the needle
+
+prefix function initiated for "splitsplit" pattern
+prefix function is: 0 0 0 0 0 1 2 3 4 5
+
+initial state
+-------------------
+V
+tsplitsplitsplitspl
+splitsplit
+^
+-------------------
+
+mismatch on frist symbol of base string 
+move shifted carriage
+-------------------
+V
+tsplitsplitsplitspl
+splitsplit
+^
+-------------------
+
+characters match, move carriage
+-------------------
+ V
+tsplitsplitsplitspl
+ splitsplit
+ ^
+-------------------
+
+characters match, move carriage
+-------------------
+  V
+tsplitsplitsplitspl
+ splitsplit
+  ^
+-------------------
+
+characters match, move carriage
+-------------------
+   V
+tsplitsplitsplitspl
+ splitsplit
+   ^
+-------------------
+
+characters match, move carriage
+-------------------
+    V
+tsplitsplitsplitspl
+ splitsplit
+    ^
+-------------------
+
+characters match, move carriage
+-------------------
+     V
+tsplitsplitsplitspl
+ splitsplit
+     ^
+-------------------
+
+characters match, move carriage
+-------------------
+      V
+tsplitsplitsplitspl
+ splitsplit
+      ^
+-------------------
+
+characters match, move carriage
+-------------------
+       V
+tsplitsplitsplitspl
+ splitsplit
+       ^
+-------------------
+
+characters match, move carriage
+-------------------
+        V
+tsplitsplitsplitspl
+ splitsplit
+        ^
+-------------------
+
+characters match, move carriage
+-------------------
+         V
+tsplitsplitsplitspl
+ splitsplit
+         ^
+-------------------
+
+charachers match,
+pattern carriage equal to pattern size
+it means, we found the shift of base string
+-------------------
+          V
+tsplitsplitsplitspl
+ splitsplit
+          ^
+-------------------
+========END LOG========
+

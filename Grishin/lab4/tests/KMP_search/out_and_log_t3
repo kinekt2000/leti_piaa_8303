@@ -1,0 +1,342 @@
+==========OUT==========
+12,20,26
+========END OUT========
+
+==========LOG==========
+prefix function initiated for "rare" pattern
+prefix function is: 0 0 1 0
+
+initial state
+-------------------------------
+V
+rawlrawlrarirarerorerarerararer
+rare
+^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+V
+rawlrawlrarirarerorerarerararer
+rare
+^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+ V
+rawlrawlrarirarerorerarerararer
+rare
+ ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+  V
+rawlrawlrarirarerorerarerararer
+rare
+  ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+  V
+rawlrawlrarirarerorerarerararer
+  rare
+  ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+   V
+rawlrawlrarirarerorerarerararer
+   rare
+   ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+    V
+rawlrawlrarirarerorerarerararer
+    rare
+    ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+     V
+rawlrawlrarirarerorerarerararer
+    rare
+     ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+      V
+rawlrawlrarirarerorerarerararer
+    rare
+      ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+      V
+rawlrawlrarirarerorerarerararer
+      rare
+      ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+       V
+rawlrawlrarirarerorerarerararer
+       rare
+       ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+        V
+rawlrawlrarirarerorerarerararer
+        rare
+        ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+         V
+rawlrawlrarirarerorerarerararer
+        rare
+         ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+          V
+rawlrawlrarirarerorerarerararer
+        rare
+          ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 1
+-------------------------------
+           V
+rawlrawlrarirarerorerarerararer
+        rare
+           ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+           V
+rawlrawlrarirarerorerarerararer
+          rare
+           ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+           V
+rawlrawlrarirarerorerarerararer
+           rare
+           ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+            V
+rawlrawlrarirarerorerarerararer
+            rare
+            ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+             V
+rawlrawlrarirarerorerarerararer
+            rare
+             ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+              V
+rawlrawlrarirarerorerarerararer
+            rare
+              ^
+-------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-------------------------------
+               V
+rawlrawlrarirarerorerarerararer
+            rare
+               ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                V
+rawlrawlrarirarerorerarerararer
+                rare
+                ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+                 V
+rawlrawlrarirarerorerarerararer
+                rare
+                 ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                 V
+rawlrawlrarirarerorerarerararer
+                 rare
+                 ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                  V
+rawlrawlrarirarerorerarerararer
+                  rare
+                  ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+                   V
+rawlrawlrarirarerorerarerararer
+                  rare
+                   ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                   V
+rawlrawlrarirarerorerarerararer
+                   rare
+                   ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                    V
+rawlrawlrarirarerorerarerararer
+                    rare
+                    ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                     V
+rawlrawlrarirarerorerarerararer
+                    rare
+                     ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                      V
+rawlrawlrarirarerorerarerararer
+                    rare
+                      ^
+-------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-------------------------------
+                       V
+rawlrawlrarirarerorerarerararer
+                    rare
+                       ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                        V
+rawlrawlrarirarerorerarerararer
+                        rare
+                        ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                         V
+rawlrawlrarirarerorerarerararer
+                        rare
+                         ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                          V
+rawlrawlrarirarerorerarerararer
+                        rare
+                          ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 1
+-------------------------------
+                           V
+rawlrawlrarirarerorerarerararer
+                        rare
+                           ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                           V
+rawlrawlrarirarerorerarerararer
+                          rare
+                           ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                            V
+rawlrawlrarirarerorerarerararer
+                          rare
+                            ^
+-------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-------------------------------
+                             V
+rawlrawlrarirarerorerarerararer
+                          rare
+                             ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                              V
+rawlrawlrarirarerorerarerararer
+                              rare
+                              ^
+-------------------------------
+
+can't move carriage, end of string
+========END LOG========

@@ -1,0 +1,3500 @@
+==========OUT==========
+Something in a thirty-acre thermal; 0
+al thicket of thorns and thistles; 32
+es thumped and thundered threaten; 63
+ening the three-D thoughts of Mat; 94
+atthew the thug - although, theat; 125
+atrically, it was only the thirte; 156
+teen-thousand thistles and thorns; 187
+ns through the underneath of his ; 218
+s thigh that the thirty year old ; 249
+d thug thought of that morning.; 280
+112,145,192,287
+========END OUT========
+
+==========LOG==========
+splitter initiated
+
+The whole text divided into 10,
+with a remainder of 1
+A remainder will be distributed among parts
+
+There is 1 characters for 1 part
+Considering the overlay on the next part, 
+We've got part 1:
+Something in a thirty-acre thermal
+which starts at index 0 in the main text
+
+Considering the overlay on the next part, 
+We've got part 2:
+al thicket of thorns and thistles
+which starts at index 32 in the main text
+
+Considering the overlay on the next part, 
+We've got part 3:
+es thumped and thundered threaten
+which starts at index 63 in the main text
+
+Considering the overlay on the next part, 
+We've got part 4:
+ening the three-D thoughts of Mat
+which starts at index 94 in the main text
+
+Considering the overlay on the next part, 
+We've got part 5:
+atthew the thug - although, theat
+which starts at index 125 in the main text
+
+Considering the overlay on the next part, 
+We've got part 6:
+atrically, it was only the thirte
+which starts at index 156 in the main text
+
+Considering the overlay on the next part, 
+We've got part 7:
+teen-thousand thistles and thorns
+which starts at index 187 in the main text
+
+Considering the overlay on the next part, 
+We've got part 8:
+ns through the underneath of his 
+which starts at index 218 in the main text
+
+Considering the overlay on the next part, 
+We've got part 9:
+s thigh that the thirty year old 
+which starts at index 249 in the main text
+
+Considering the overlay on the next part, 
+We've got part 10:
+d thug thought of that morning.
+which starts at index 280 in the main text
+
+
+Start KMP for 1 part:
+Something in a thirty-acre thermal
+which has offset: 0
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+----------------------------------
+V
+Something in a thirty-acre thermal
+thou
+^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+V
+Something in a thirty-acre thermal
+thou
+^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+ V
+Something in a thirty-acre thermal
+ thou
+ ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+  V
+Something in a thirty-acre thermal
+  thou
+  ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+   V
+Something in a thirty-acre thermal
+   thou
+   ^
+----------------------------------
+
+characters match, move carriage
+----------------------------------
+    V
+Something in a thirty-acre thermal
+    thou
+    ^
+----------------------------------
+
+characters match, move carriage
+----------------------------------
+     V
+Something in a thirty-acre thermal
+    thou
+     ^
+----------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+----------------------------------
+      V
+Something in a thirty-acre thermal
+    thou
+      ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+      V
+Something in a thirty-acre thermal
+      thou
+      ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+       V
+Something in a thirty-acre thermal
+       thou
+       ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+        V
+Something in a thirty-acre thermal
+        thou
+        ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+         V
+Something in a thirty-acre thermal
+         thou
+         ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+          V
+Something in a thirty-acre thermal
+          thou
+          ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+           V
+Something in a thirty-acre thermal
+           thou
+           ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+            V
+Something in a thirty-acre thermal
+            thou
+            ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+             V
+Something in a thirty-acre thermal
+             thou
+             ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+              V
+Something in a thirty-acre thermal
+              thou
+              ^
+----------------------------------
+
+characters match, move carriage
+----------------------------------
+               V
+Something in a thirty-acre thermal
+               thou
+               ^
+----------------------------------
+
+characters match, move carriage
+----------------------------------
+                V
+Something in a thirty-acre thermal
+               thou
+                ^
+----------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+----------------------------------
+                 V
+Something in a thirty-acre thermal
+               thou
+                 ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                 V
+Something in a thirty-acre thermal
+                 thou
+                 ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                  V
+Something in a thirty-acre thermal
+                  thou
+                  ^
+----------------------------------
+
+characters match, move carriage
+----------------------------------
+                   V
+Something in a thirty-acre thermal
+                   thou
+                   ^
+----------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+----------------------------------
+                    V
+Something in a thirty-acre thermal
+                   thou
+                    ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                    V
+Something in a thirty-acre thermal
+                    thou
+                    ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                     V
+Something in a thirty-acre thermal
+                     thou
+                     ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                      V
+Something in a thirty-acre thermal
+                      thou
+                      ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                       V
+Something in a thirty-acre thermal
+                       thou
+                       ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                        V
+Something in a thirty-acre thermal
+                        thou
+                        ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                         V
+Something in a thirty-acre thermal
+                         thou
+                         ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                          V
+Something in a thirty-acre thermal
+                          thou
+                          ^
+----------------------------------
+
+characters match, move carriage
+----------------------------------
+                           V
+Something in a thirty-acre thermal
+                           thou
+                           ^
+----------------------------------
+
+characters match, move carriage
+----------------------------------
+                            V
+Something in a thirty-acre thermal
+                           thou
+                            ^
+----------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+----------------------------------
+                             V
+Something in a thirty-acre thermal
+                           thou
+                             ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                             V
+Something in a thirty-acre thermal
+                             thou
+                             ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                              V
+Something in a thirty-acre thermal
+                              thou
+                              ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                               V
+Something in a thirty-acre thermal
+                               thou
+                               ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                                V
+Something in a thirty-acre thermal
+                                thou
+                                ^
+----------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------------------------
+                                 V
+Something in a thirty-acre thermal
+                                 thou
+                                 ^
+----------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+al thicket of thorns and thistles
+which has offset: 32
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+---------------------------------
+V
+al thicket of thorns and thistles
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+V
+al thicket of thorns and thistles
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+ V
+al thicket of thorns and thistles
+ thou
+ ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+  V
+al thicket of thorns and thistles
+  thou
+  ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+   V
+al thicket of thorns and thistles
+   thou
+   ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+    V
+al thicket of thorns and thistles
+   thou
+    ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+     V
+al thicket of thorns and thistles
+   thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+     V
+al thicket of thorns and thistles
+     thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+      V
+al thicket of thorns and thistles
+      thou
+      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+       V
+al thicket of thorns and thistles
+       thou
+       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+        V
+al thicket of thorns and thistles
+        thou
+        ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+         V
+al thicket of thorns and thistles
+         thou
+         ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+          V
+al thicket of thorns and thistles
+         thou
+          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+          V
+al thicket of thorns and thistles
+          thou
+          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+           V
+al thicket of thorns and thistles
+           thou
+           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+            V
+al thicket of thorns and thistles
+            thou
+            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+             V
+al thicket of thorns and thistles
+             thou
+             ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+              V
+al thicket of thorns and thistles
+              thou
+              ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+               V
+al thicket of thorns and thistles
+              thou
+               ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                V
+al thicket of thorns and thistles
+              thou
+                ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                 V
+al thicket of thorns and thistles
+              thou
+                 ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                 V
+al thicket of thorns and thistles
+                 thou
+                 ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                  V
+al thicket of thorns and thistles
+                  thou
+                  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                   V
+al thicket of thorns and thistles
+                   thou
+                   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                    V
+al thicket of thorns and thistles
+                    thou
+                    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                     V
+al thicket of thorns and thistles
+                     thou
+                     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                      V
+al thicket of thorns and thistles
+                      thou
+                      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                       V
+al thicket of thorns and thistles
+                       thou
+                       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                        V
+al thicket of thorns and thistles
+                        thou
+                        ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                         V
+al thicket of thorns and thistles
+                         thou
+                         ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                          V
+al thicket of thorns and thistles
+                         thou
+                          ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                           V
+al thicket of thorns and thistles
+                         thou
+                           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                           V
+al thicket of thorns and thistles
+                           thou
+                           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                            V
+al thicket of thorns and thistles
+                            thou
+                            ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                             V
+al thicket of thorns and thistles
+                             thou
+                             ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                              V
+al thicket of thorns and thistles
+                             thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                              V
+al thicket of thorns and thistles
+                              thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                               V
+al thicket of thorns and thistles
+                               thou
+                               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                                V
+al thicket of thorns and thistles
+                                thou
+                                ^
+---------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+es thumped and thundered threaten
+which has offset: 63
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+---------------------------------
+V
+es thumped and thundered threaten
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+V
+es thumped and thundered threaten
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+ V
+es thumped and thundered threaten
+ thou
+ ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+  V
+es thumped and thundered threaten
+  thou
+  ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+   V
+es thumped and thundered threaten
+   thou
+   ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+    V
+es thumped and thundered threaten
+   thou
+    ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+     V
+es thumped and thundered threaten
+   thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+     V
+es thumped and thundered threaten
+     thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+      V
+es thumped and thundered threaten
+      thou
+      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+       V
+es thumped and thundered threaten
+       thou
+       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+        V
+es thumped and thundered threaten
+        thou
+        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+         V
+es thumped and thundered threaten
+         thou
+         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+          V
+es thumped and thundered threaten
+          thou
+          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+           V
+es thumped and thundered threaten
+           thou
+           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+            V
+es thumped and thundered threaten
+            thou
+            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+             V
+es thumped and thundered threaten
+             thou
+             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+              V
+es thumped and thundered threaten
+              thou
+              ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+               V
+es thumped and thundered threaten
+               thou
+               ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                V
+es thumped and thundered threaten
+               thou
+                ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                 V
+es thumped and thundered threaten
+               thou
+                 ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                 V
+es thumped and thundered threaten
+                 thou
+                 ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                  V
+es thumped and thundered threaten
+                  thou
+                  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                   V
+es thumped and thundered threaten
+                   thou
+                   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                    V
+es thumped and thundered threaten
+                    thou
+                    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                     V
+es thumped and thundered threaten
+                     thou
+                     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                      V
+es thumped and thundered threaten
+                      thou
+                      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                       V
+es thumped and thundered threaten
+                       thou
+                       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                        V
+es thumped and thundered threaten
+                        thou
+                        ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                         V
+es thumped and thundered threaten
+                         thou
+                         ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                          V
+es thumped and thundered threaten
+                         thou
+                          ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                           V
+es thumped and thundered threaten
+                         thou
+                           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                           V
+es thumped and thundered threaten
+                           thou
+                           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                            V
+es thumped and thundered threaten
+                            thou
+                            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                             V
+es thumped and thundered threaten
+                             thou
+                             ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                              V
+es thumped and thundered threaten
+                              thou
+                              ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                               V
+es thumped and thundered threaten
+                              thou
+                               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                               V
+es thumped and thundered threaten
+                               thou
+                               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                                V
+es thumped and thundered threaten
+                                thou
+                                ^
+---------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+ening the three-D thoughts of Mat
+which has offset: 94
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+---------------------------------
+V
+ening the three-D thoughts of Mat
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+V
+ening the three-D thoughts of Mat
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+ V
+ening the three-D thoughts of Mat
+ thou
+ ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+  V
+ening the three-D thoughts of Mat
+  thou
+  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+   V
+ening the three-D thoughts of Mat
+   thou
+   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+    V
+ening the three-D thoughts of Mat
+    thou
+    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+     V
+ening the three-D thoughts of Mat
+     thou
+     ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+      V
+ening the three-D thoughts of Mat
+      thou
+      ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+       V
+ening the three-D thoughts of Mat
+      thou
+       ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+        V
+ening the three-D thoughts of Mat
+      thou
+        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+        V
+ening the three-D thoughts of Mat
+        thou
+        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+         V
+ening the three-D thoughts of Mat
+         thou
+         ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+          V
+ening the three-D thoughts of Mat
+          thou
+          ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+           V
+ening the three-D thoughts of Mat
+          thou
+           ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+            V
+ening the three-D thoughts of Mat
+          thou
+            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+            V
+ening the three-D thoughts of Mat
+            thou
+            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+             V
+ening the three-D thoughts of Mat
+             thou
+             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+              V
+ening the three-D thoughts of Mat
+              thou
+              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+               V
+ening the three-D thoughts of Mat
+               thou
+               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                V
+ening the three-D thoughts of Mat
+                thou
+                ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                 V
+ening the three-D thoughts of Mat
+                 thou
+                 ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                  V
+ening the three-D thoughts of Mat
+                  thou
+                  ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                   V
+ening the three-D thoughts of Mat
+                  thou
+                   ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                    V
+ening the three-D thoughts of Mat
+                  thou
+                    ^
+---------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+---------------------------------
+                     V
+ening the three-D thoughts of Mat
+                  thou
+                     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                      V
+ening the three-D thoughts of Mat
+                      thou
+                      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                       V
+ening the three-D thoughts of Mat
+                       thou
+                       ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                        V
+ening the three-D thoughts of Mat
+                        thou
+                        ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                         V
+ening the three-D thoughts of Mat
+                        thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                         V
+ening the three-D thoughts of Mat
+                         thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                          V
+ening the three-D thoughts of Mat
+                          thou
+                          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                           V
+ening the three-D thoughts of Mat
+                           thou
+                           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                            V
+ening the three-D thoughts of Mat
+                            thou
+                            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                             V
+ening the three-D thoughts of Mat
+                             thou
+                             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                              V
+ening the three-D thoughts of Mat
+                              thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                               V
+ening the three-D thoughts of Mat
+                               thou
+                               ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                                V
+ening the three-D thoughts of Mat
+                                thou
+                                ^
+---------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 18(112)
+Start KMP for 1 part:
+atthew the thug - although, theat
+which has offset: 125
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+---------------------------------
+V
+atthew the thug - although, theat
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+V
+atthew the thug - although, theat
+thou
+^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+ V
+atthew the thug - although, theat
+ thou
+ ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+  V
+atthew the thug - although, theat
+ thou
+  ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+  V
+atthew the thug - although, theat
+  thou
+  ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+   V
+atthew the thug - although, theat
+  thou
+   ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+    V
+atthew the thug - although, theat
+  thou
+    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+    V
+atthew the thug - although, theat
+    thou
+    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+     V
+atthew the thug - although, theat
+     thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+      V
+atthew the thug - although, theat
+      thou
+      ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+       V
+atthew the thug - although, theat
+       thou
+       ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+        V
+atthew the thug - although, theat
+       thou
+        ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+         V
+atthew the thug - although, theat
+       thou
+         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+         V
+atthew the thug - although, theat
+         thou
+         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+          V
+atthew the thug - although, theat
+          thou
+          ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+           V
+atthew the thug - although, theat
+           thou
+           ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+            V
+atthew the thug - although, theat
+           thou
+            ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+             V
+atthew the thug - although, theat
+           thou
+             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+             V
+atthew the thug - although, theat
+             thou
+             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+              V
+atthew the thug - although, theat
+              thou
+              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+               V
+atthew the thug - although, theat
+               thou
+               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                V
+atthew the thug - although, theat
+                thou
+                ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                 V
+atthew the thug - although, theat
+                 thou
+                 ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                  V
+atthew the thug - although, theat
+                  thou
+                  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                   V
+atthew the thug - although, theat
+                   thou
+                   ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                    V
+atthew the thug - although, theat
+                    thou
+                    ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                     V
+atthew the thug - although, theat
+                    thou
+                     ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                      V
+atthew the thug - although, theat
+                    thou
+                      ^
+---------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+---------------------------------
+                       V
+atthew the thug - although, theat
+                    thou
+                       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                        V
+atthew the thug - although, theat
+                        thou
+                        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                         V
+atthew the thug - although, theat
+                         thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                          V
+atthew the thug - although, theat
+                          thou
+                          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                           V
+atthew the thug - although, theat
+                           thou
+                           ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                            V
+atthew the thug - although, theat
+                            thou
+                            ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                             V
+atthew the thug - although, theat
+                            thou
+                             ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                              V
+atthew the thug - although, theat
+                            thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                              V
+atthew the thug - although, theat
+                              thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                               V
+atthew the thug - although, theat
+                               thou
+                               ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                                V
+atthew the thug - although, theat
+                                thou
+                                ^
+---------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 20(145)
+Start KMP for 1 part:
+atrically, it was only the thirte
+which has offset: 156
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+---------------------------------
+V
+atrically, it was only the thirte
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+V
+atrically, it was only the thirte
+thou
+^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+ V
+atrically, it was only the thirte
+ thou
+ ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+  V
+atrically, it was only the thirte
+ thou
+  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+  V
+atrically, it was only the thirte
+  thou
+  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+   V
+atrically, it was only the thirte
+   thou
+   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+    V
+atrically, it was only the thirte
+    thou
+    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+     V
+atrically, it was only the thirte
+     thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+      V
+atrically, it was only the thirte
+      thou
+      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+       V
+atrically, it was only the thirte
+       thou
+       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+        V
+atrically, it was only the thirte
+        thou
+        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+         V
+atrically, it was only the thirte
+         thou
+         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+          V
+atrically, it was only the thirte
+          thou
+          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+           V
+atrically, it was only the thirte
+           thou
+           ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+            V
+atrically, it was only the thirte
+            thou
+            ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+             V
+atrically, it was only the thirte
+            thou
+             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+             V
+atrically, it was only the thirte
+             thou
+             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+              V
+atrically, it was only the thirte
+              thou
+              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+               V
+atrically, it was only the thirte
+               thou
+               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                V
+atrically, it was only the thirte
+                thou
+                ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                 V
+atrically, it was only the thirte
+                 thou
+                 ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                  V
+atrically, it was only the thirte
+                  thou
+                  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                   V
+atrically, it was only the thirte
+                   thou
+                   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                    V
+atrically, it was only the thirte
+                    thou
+                    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                     V
+atrically, it was only the thirte
+                     thou
+                     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                      V
+atrically, it was only the thirte
+                      thou
+                      ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                       V
+atrically, it was only the thirte
+                       thou
+                       ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                        V
+atrically, it was only the thirte
+                       thou
+                        ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                         V
+atrically, it was only the thirte
+                       thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                         V
+atrically, it was only the thirte
+                         thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                          V
+atrically, it was only the thirte
+                          thou
+                          ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                           V
+atrically, it was only the thirte
+                           thou
+                           ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                            V
+atrically, it was only the thirte
+                           thou
+                            ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                             V
+atrically, it was only the thirte
+                           thou
+                             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                             V
+atrically, it was only the thirte
+                             thou
+                             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                              V
+atrically, it was only the thirte
+                              thou
+                              ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                               V
+atrically, it was only the thirte
+                               thou
+                               ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                                V
+atrically, it was only the thirte
+                               thou
+                                ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                                V
+atrically, it was only the thirte
+                                thou
+                                ^
+---------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+teen-thousand thistles and thorns
+which has offset: 187
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+---------------------------------
+V
+teen-thousand thistles and thorns
+thou
+^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+V
+teen-thousand thistles and thorns
+thou
+^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+ V
+teen-thousand thistles and thorns
+thou
+ ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+ V
+teen-thousand thistles and thorns
+ thou
+ ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+  V
+teen-thousand thistles and thorns
+  thou
+  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+   V
+teen-thousand thistles and thorns
+   thou
+   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+    V
+teen-thousand thistles and thorns
+    thou
+    ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+     V
+teen-thousand thistles and thorns
+     thou
+     ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+      V
+teen-thousand thistles and thorns
+     thou
+      ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+       V
+teen-thousand thistles and thorns
+     thou
+       ^
+---------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+---------------------------------
+        V
+teen-thousand thistles and thorns
+     thou
+        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+         V
+teen-thousand thistles and thorns
+         thou
+         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+          V
+teen-thousand thistles and thorns
+          thou
+          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+           V
+teen-thousand thistles and thorns
+           thou
+           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+            V
+teen-thousand thistles and thorns
+            thou
+            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+             V
+teen-thousand thistles and thorns
+             thou
+             ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+              V
+teen-thousand thistles and thorns
+              thou
+              ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+               V
+teen-thousand thistles and thorns
+              thou
+               ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                V
+teen-thousand thistles and thorns
+              thou
+                ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                V
+teen-thousand thistles and thorns
+                thou
+                ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                 V
+teen-thousand thistles and thorns
+                 thou
+                 ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                  V
+teen-thousand thistles and thorns
+                  thou
+                  ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                   V
+teen-thousand thistles and thorns
+                  thou
+                   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                   V
+teen-thousand thistles and thorns
+                   thou
+                   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                    V
+teen-thousand thistles and thorns
+                    thou
+                    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                     V
+teen-thousand thistles and thorns
+                     thou
+                     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                      V
+teen-thousand thistles and thorns
+                      thou
+                      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                       V
+teen-thousand thistles and thorns
+                       thou
+                       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                        V
+teen-thousand thistles and thorns
+                        thou
+                        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                         V
+teen-thousand thistles and thorns
+                         thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                          V
+teen-thousand thistles and thorns
+                          thou
+                          ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                           V
+teen-thousand thistles and thorns
+                           thou
+                           ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                            V
+teen-thousand thistles and thorns
+                           thou
+                            ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                             V
+teen-thousand thistles and thorns
+                           thou
+                             ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                              V
+teen-thousand thistles and thorns
+                           thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                              V
+teen-thousand thistles and thorns
+                              thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                               V
+teen-thousand thistles and thorns
+                               thou
+                               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                                V
+teen-thousand thistles and thorns
+                                thou
+                                ^
+---------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 5(192)
+Start KMP for 1 part:
+ns through the underneath of his 
+which has offset: 218
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+---------------------------------
+V
+ns through the underneath of his 
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+V
+ns through the underneath of his 
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+ V
+ns through the underneath of his 
+ thou
+ ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+  V
+ns through the underneath of his 
+  thou
+  ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+   V
+ns through the underneath of his 
+   thou
+   ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+    V
+ns through the underneath of his 
+   thou
+    ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+     V
+ns through the underneath of his 
+   thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+     V
+ns through the underneath of his 
+     thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+      V
+ns through the underneath of his 
+      thou
+      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+       V
+ns through the underneath of his 
+       thou
+       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+        V
+ns through the underneath of his 
+        thou
+        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+         V
+ns through the underneath of his 
+         thou
+         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+          V
+ns through the underneath of his 
+          thou
+          ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+           V
+ns through the underneath of his 
+           thou
+           ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+            V
+ns through the underneath of his 
+           thou
+            ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+             V
+ns through the underneath of his 
+           thou
+             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+             V
+ns through the underneath of his 
+             thou
+             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+              V
+ns through the underneath of his 
+              thou
+              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+               V
+ns through the underneath of his 
+               thou
+               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                V
+ns through the underneath of his 
+                thou
+                ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                 V
+ns through the underneath of his 
+                 thou
+                 ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                  V
+ns through the underneath of his 
+                  thou
+                  ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                   V
+ns through the underneath of his 
+                   thou
+                   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                    V
+ns through the underneath of his 
+                    thou
+                    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                     V
+ns through the underneath of his 
+                     thou
+                     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                      V
+ns through the underneath of his 
+                      thou
+                      ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                       V
+ns through the underneath of his 
+                       thou
+                       ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                        V
+ns through the underneath of his 
+                       thou
+                        ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                         V
+ns through the underneath of his 
+                       thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                         V
+ns through the underneath of his 
+                         thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                          V
+ns through the underneath of his 
+                          thou
+                          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                           V
+ns through the underneath of his 
+                           thou
+                           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                            V
+ns through the underneath of his 
+                            thou
+                            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                             V
+ns through the underneath of his 
+                             thou
+                             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                              V
+ns through the underneath of his 
+                              thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                               V
+ns through the underneath of his 
+                               thou
+                               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                                V
+ns through the underneath of his 
+                                thou
+                                ^
+---------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+s thigh that the thirty year old 
+which has offset: 249
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+---------------------------------
+V
+s thigh that the thirty year old 
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+V
+s thigh that the thirty year old 
+thou
+^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+ V
+s thigh that the thirty year old 
+ thou
+ ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+  V
+s thigh that the thirty year old 
+  thou
+  ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+   V
+s thigh that the thirty year old 
+  thou
+   ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+    V
+s thigh that the thirty year old 
+  thou
+    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+    V
+s thigh that the thirty year old 
+    thou
+    ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+     V
+s thigh that the thirty year old 
+     thou
+     ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+      V
+s thigh that the thirty year old 
+      thou
+      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+       V
+s thigh that the thirty year old 
+       thou
+       ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+        V
+s thigh that the thirty year old 
+        thou
+        ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+         V
+s thigh that the thirty year old 
+        thou
+         ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+          V
+s thigh that the thirty year old 
+        thou
+          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+          V
+s thigh that the thirty year old 
+          thou
+          ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+           V
+s thigh that the thirty year old 
+           thou
+           ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+            V
+s thigh that the thirty year old 
+           thou
+            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+            V
+s thigh that the thirty year old 
+            thou
+            ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+             V
+s thigh that the thirty year old 
+             thou
+             ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+              V
+s thigh that the thirty year old 
+             thou
+              ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+               V
+s thigh that the thirty year old 
+             thou
+               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+               V
+s thigh that the thirty year old 
+               thou
+               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                V
+s thigh that the thirty year old 
+                thou
+                ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                 V
+s thigh that the thirty year old 
+                 thou
+                 ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                  V
+s thigh that the thirty year old 
+                 thou
+                  ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                   V
+s thigh that the thirty year old 
+                 thou
+                   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                   V
+s thigh that the thirty year old 
+                   thou
+                   ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                    V
+s thigh that the thirty year old 
+                    thou
+                    ^
+---------------------------------
+
+characters match, move carriage
+---------------------------------
+                     V
+s thigh that the thirty year old 
+                     thou
+                     ^
+---------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+---------------------------------
+                      V
+s thigh that the thirty year old 
+                     thou
+                      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                      V
+s thigh that the thirty year old 
+                      thou
+                      ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                       V
+s thigh that the thirty year old 
+                       thou
+                       ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                        V
+s thigh that the thirty year old 
+                        thou
+                        ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                         V
+s thigh that the thirty year old 
+                         thou
+                         ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                          V
+s thigh that the thirty year old 
+                          thou
+                          ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                           V
+s thigh that the thirty year old 
+                           thou
+                           ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                            V
+s thigh that the thirty year old 
+                            thou
+                            ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                             V
+s thigh that the thirty year old 
+                             thou
+                             ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                              V
+s thigh that the thirty year old 
+                              thou
+                              ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                               V
+s thigh that the thirty year old 
+                               thou
+                               ^
+---------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+---------------------------------
+                                V
+s thigh that the thirty year old 
+                                thou
+                                ^
+---------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+d thug thought of that morning.
+which has offset: 280
+prefix function initiated for "thou" pattern
+prefix function is: 0 0 0 0
+
+initial state
+-------------------------------
+V
+d thug thought of that morning.
+thou
+^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+V
+d thug thought of that morning.
+thou
+^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+ V
+d thug thought of that morning.
+ thou
+ ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+  V
+d thug thought of that morning.
+  thou
+  ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+   V
+d thug thought of that morning.
+  thou
+   ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+    V
+d thug thought of that morning.
+  thou
+    ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+    V
+d thug thought of that morning.
+    thou
+    ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+     V
+d thug thought of that morning.
+     thou
+     ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+      V
+d thug thought of that morning.
+      thou
+      ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+       V
+d thug thought of that morning.
+       thou
+       ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+        V
+d thug thought of that morning.
+       thou
+        ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+         V
+d thug thought of that morning.
+       thou
+         ^
+-------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-------------------------------
+          V
+d thug thought of that morning.
+       thou
+          ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+           V
+d thug thought of that morning.
+           thou
+           ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+            V
+d thug thought of that morning.
+            thou
+            ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+             V
+d thug thought of that morning.
+             thou
+             ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+              V
+d thug thought of that morning.
+             thou
+              ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+              V
+d thug thought of that morning.
+              thou
+              ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+               V
+d thug thought of that morning.
+               thou
+               ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                V
+d thug thought of that morning.
+                thou
+                ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                 V
+d thug thought of that morning.
+                 thou
+                 ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                  V
+d thug thought of that morning.
+                  thou
+                  ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                   V
+d thug thought of that morning.
+                  thou
+                   ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+                    V
+d thug thought of that morning.
+                  thou
+                    ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                    V
+d thug thought of that morning.
+                    thou
+                    ^
+-------------------------------
+
+characters match, move carriage
+-------------------------------
+                     V
+d thug thought of that morning.
+                     thou
+                     ^
+-------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------------
+                      V
+d thug thought of that morning.
+                     thou
+                      ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                      V
+d thug thought of that morning.
+                      thou
+                      ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                       V
+d thug thought of that morning.
+                       thou
+                       ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                        V
+d thug thought of that morning.
+                        thou
+                        ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                         V
+d thug thought of that morning.
+                         thou
+                         ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                          V
+d thug thought of that morning.
+                          thou
+                          ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                           V
+d thug thought of that morning.
+                           thou
+                           ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                            V
+d thug thought of that morning.
+                            thou
+                            ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                             V
+d thug thought of that morning.
+                             thou
+                             ^
+-------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------------
+                              V
+d thug thought of that morning.
+                              thou
+                              ^
+-------------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 7(287)
+
+========END LOG========

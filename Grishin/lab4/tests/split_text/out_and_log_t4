@@ -1,0 +1,1431 @@
+==========OUT==========
+Let's try to split this l; 0
+t this little haystack in; 17
+stack into big amount of ; 34
+ount of parts, but neeeee; 51
+t neeeeeeeeeeeedle big en; 68
+e big enough too; 85
+70
+========END OUT========
+
+==========LOG==========
+splitter initiated
+splitter warning: minimal length not suitable for this parts quantity
+
+The whole text divided into 6,
+with a remainder of 5
+A remainder will be distributed among parts
+
+There is 1 characters for 1 part
+Considering the overlay on the next part, 
+We've got part 1:
+Let's try to split this l
+which starts at index 0 in the main text
+
+There is 1 characters for 2 part
+Considering the overlay on the next part, 
+We've got part 2:
+t this little haystack in
+which starts at index 17 in the main text
+
+There is 1 characters for 3 part
+Considering the overlay on the next part, 
+We've got part 3:
+stack into big amount of 
+which starts at index 34 in the main text
+
+There is 1 characters for 4 part
+Considering the overlay on the next part, 
+We've got part 4:
+ount of parts, but neeeee
+which starts at index 51 in the main text
+
+There is 1 characters for 5 part
+Considering the overlay on the next part, 
+We've got part 5:
+t neeeeeeeeeeeedle big en
+which starts at index 68 in the main text
+
+Considering the overlay on the next part, 
+We've got part 6:
+e big enough too
+which starts at index 85 in the main text
+
+
+Start KMP for 1 part:
+Let's try to split this l
+which has offset: 0
+prefix function initiated for "neeeeeeeeeeeedle" pattern
+prefix function is: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+initial state
+-------------------------
+V
+Let's try to split this l
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+V
+Let's try to split this l
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+ V
+Let's try to split this l
+ neeeeeeeeeeeedle
+ ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+  V
+Let's try to split this l
+  neeeeeeeeeeeedle
+  ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+   V
+Let's try to split this l
+   neeeeeeeeeeeedle
+   ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+    V
+Let's try to split this l
+    neeeeeeeeeeeedle
+    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+     V
+Let's try to split this l
+     neeeeeeeeeeeedle
+     ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+      V
+Let's try to split this l
+      neeeeeeeeeeeedle
+      ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+       V
+Let's try to split this l
+       neeeeeeeeeeeedle
+       ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+        V
+Let's try to split this l
+        neeeeeeeeeeeedle
+        ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+         V
+Let's try to split this l
+         neeeeeeeeeeeedle
+         ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+          V
+Let's try to split this l
+          neeeeeeeeeeeedle
+          ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+           V
+Let's try to split this l
+           neeeeeeeeeeeedle
+           ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+            V
+Let's try to split this l
+            neeeeeeeeeeeedle
+            ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+             V
+Let's try to split this l
+             neeeeeeeeeeeedle
+             ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+              V
+Let's try to split this l
+              neeeeeeeeeeeedle
+              ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+               V
+Let's try to split this l
+               neeeeeeeeeeeedle
+               ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                V
+Let's try to split this l
+                neeeeeeeeeeeedle
+                ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                 V
+Let's try to split this l
+                 neeeeeeeeeeeedle
+                 ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                  V
+Let's try to split this l
+                  neeeeeeeeeeeedle
+                  ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                   V
+Let's try to split this l
+                   neeeeeeeeeeeedle
+                   ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                    V
+Let's try to split this l
+                    neeeeeeeeeeeedle
+                    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                     V
+Let's try to split this l
+                     neeeeeeeeeeeedle
+                     ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                      V
+Let's try to split this l
+                      neeeeeeeeeeeedle
+                      ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                       V
+Let's try to split this l
+                       neeeeeeeeeeeedle
+                       ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                        V
+Let's try to split this l
+                        neeeeeeeeeeeedle
+                        ^
+-------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+t this little haystack in
+which has offset: 17
+prefix function initiated for "neeeeeeeeeeeedle" pattern
+prefix function is: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+initial state
+-------------------------
+V
+t this little haystack in
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+V
+t this little haystack in
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+ V
+t this little haystack in
+ neeeeeeeeeeeedle
+ ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+  V
+t this little haystack in
+  neeeeeeeeeeeedle
+  ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+   V
+t this little haystack in
+   neeeeeeeeeeeedle
+   ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+    V
+t this little haystack in
+    neeeeeeeeeeeedle
+    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+     V
+t this little haystack in
+     neeeeeeeeeeeedle
+     ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+      V
+t this little haystack in
+      neeeeeeeeeeeedle
+      ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+       V
+t this little haystack in
+       neeeeeeeeeeeedle
+       ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+        V
+t this little haystack in
+        neeeeeeeeeeeedle
+        ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+         V
+t this little haystack in
+         neeeeeeeeeeeedle
+         ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+          V
+t this little haystack in
+          neeeeeeeeeeeedle
+          ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+           V
+t this little haystack in
+           neeeeeeeeeeeedle
+           ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+            V
+t this little haystack in
+            neeeeeeeeeeeedle
+            ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+             V
+t this little haystack in
+             neeeeeeeeeeeedle
+             ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+              V
+t this little haystack in
+              neeeeeeeeeeeedle
+              ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+               V
+t this little haystack in
+               neeeeeeeeeeeedle
+               ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                V
+t this little haystack in
+                neeeeeeeeeeeedle
+                ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                 V
+t this little haystack in
+                 neeeeeeeeeeeedle
+                 ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                  V
+t this little haystack in
+                  neeeeeeeeeeeedle
+                  ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                   V
+t this little haystack in
+                   neeeeeeeeeeeedle
+                   ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                    V
+t this little haystack in
+                    neeeeeeeeeeeedle
+                    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                     V
+t this little haystack in
+                     neeeeeeeeeeeedle
+                     ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                      V
+t this little haystack in
+                      neeeeeeeeeeeedle
+                      ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                       V
+t this little haystack in
+                       neeeeeeeeeeeedle
+                       ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                        V
+t this little haystack in
+                        neeeeeeeeeeeedle
+                        ^
+-------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+stack into big amount of 
+which has offset: 34
+prefix function initiated for "neeeeeeeeeeeedle" pattern
+prefix function is: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+initial state
+-------------------------
+V
+stack into big amount of 
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+V
+stack into big amount of 
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+ V
+stack into big amount of 
+ neeeeeeeeeeeedle
+ ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+  V
+stack into big amount of 
+  neeeeeeeeeeeedle
+  ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+   V
+stack into big amount of 
+   neeeeeeeeeeeedle
+   ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+    V
+stack into big amount of 
+    neeeeeeeeeeeedle
+    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+     V
+stack into big amount of 
+     neeeeeeeeeeeedle
+     ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+      V
+stack into big amount of 
+      neeeeeeeeeeeedle
+      ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+       V
+stack into big amount of 
+       neeeeeeeeeeeedle
+       ^
+-------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------
+        V
+stack into big amount of 
+       neeeeeeeeeeeedle
+        ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+        V
+stack into big amount of 
+        neeeeeeeeeeeedle
+        ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+         V
+stack into big amount of 
+         neeeeeeeeeeeedle
+         ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+          V
+stack into big amount of 
+          neeeeeeeeeeeedle
+          ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+           V
+stack into big amount of 
+           neeeeeeeeeeeedle
+           ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+            V
+stack into big amount of 
+            neeeeeeeeeeeedle
+            ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+             V
+stack into big amount of 
+             neeeeeeeeeeeedle
+             ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+              V
+stack into big amount of 
+              neeeeeeeeeeeedle
+              ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+               V
+stack into big amount of 
+               neeeeeeeeeeeedle
+               ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                V
+stack into big amount of 
+                neeeeeeeeeeeedle
+                ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                 V
+stack into big amount of 
+                 neeeeeeeeeeeedle
+                 ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                  V
+stack into big amount of 
+                  neeeeeeeeeeeedle
+                  ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                   V
+stack into big amount of 
+                   neeeeeeeeeeeedle
+                   ^
+-------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------
+                    V
+stack into big amount of 
+                   neeeeeeeeeeeedle
+                    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                    V
+stack into big amount of 
+                    neeeeeeeeeeeedle
+                    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                     V
+stack into big amount of 
+                     neeeeeeeeeeeedle
+                     ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                      V
+stack into big amount of 
+                      neeeeeeeeeeeedle
+                      ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                       V
+stack into big amount of 
+                       neeeeeeeeeeeedle
+                       ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                        V
+stack into big amount of 
+                        neeeeeeeeeeeedle
+                        ^
+-------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+ount of parts, but neeeee
+which has offset: 51
+prefix function initiated for "neeeeeeeeeeeedle" pattern
+prefix function is: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+initial state
+-------------------------
+V
+ount of parts, but neeeee
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+V
+ount of parts, but neeeee
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+ V
+ount of parts, but neeeee
+ neeeeeeeeeeeedle
+ ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+  V
+ount of parts, but neeeee
+  neeeeeeeeeeeedle
+  ^
+-------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+-------------------------
+   V
+ount of parts, but neeeee
+  neeeeeeeeeeeedle
+   ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+   V
+ount of parts, but neeeee
+   neeeeeeeeeeeedle
+   ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+    V
+ount of parts, but neeeee
+    neeeeeeeeeeeedle
+    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+     V
+ount of parts, but neeeee
+     neeeeeeeeeeeedle
+     ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+      V
+ount of parts, but neeeee
+      neeeeeeeeeeeedle
+      ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+       V
+ount of parts, but neeeee
+       neeeeeeeeeeeedle
+       ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+        V
+ount of parts, but neeeee
+        neeeeeeeeeeeedle
+        ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+         V
+ount of parts, but neeeee
+         neeeeeeeeeeeedle
+         ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+          V
+ount of parts, but neeeee
+          neeeeeeeeeeeedle
+          ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+           V
+ount of parts, but neeeee
+           neeeeeeeeeeeedle
+           ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+            V
+ount of parts, but neeeee
+            neeeeeeeeeeeedle
+            ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+             V
+ount of parts, but neeeee
+             neeeeeeeeeeeedle
+             ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+              V
+ount of parts, but neeeee
+              neeeeeeeeeeeedle
+              ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+               V
+ount of parts, but neeeee
+               neeeeeeeeeeeedle
+               ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                V
+ount of parts, but neeeee
+                neeeeeeeeeeeedle
+                ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                 V
+ount of parts, but neeeee
+                 neeeeeeeeeeeedle
+                 ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                  V
+ount of parts, but neeeee
+                  neeeeeeeeeeeedle
+                  ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                   V
+ount of parts, but neeeee
+                   neeeeeeeeeeeedle
+                   ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                    V
+ount of parts, but neeeee
+                   neeeeeeeeeeeedle
+                    ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                     V
+ount of parts, but neeeee
+                   neeeeeeeeeeeedle
+                     ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                      V
+ount of parts, but neeeee
+                   neeeeeeeeeeeedle
+                      ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                       V
+ount of parts, but neeeee
+                   neeeeeeeeeeeedle
+                       ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                        V
+ount of parts, but neeeee
+                   neeeeeeeeeeeedle
+                        ^
+-------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+Start KMP for 1 part:
+t neeeeeeeeeeeedle big en
+which has offset: 68
+prefix function initiated for "neeeeeeeeeeeedle" pattern
+prefix function is: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+initial state
+-------------------------
+V
+t neeeeeeeeeeeedle big en
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+V
+t neeeeeeeeeeeedle big en
+neeeeeeeeeeeedle
+^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+ V
+t neeeeeeeeeeeedle big en
+ neeeeeeeeeeeedle
+ ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+  V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+  ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+   V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+   ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+    V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+    ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+     V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+     ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+      V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+      ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+       V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+       ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+        V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+        ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+         V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+         ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+          V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+          ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+           V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+           ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+            V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+            ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+             V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+             ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+              V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+              ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+               V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+               ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+                ^
+-------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+-------------------------
+                 V
+t neeeeeeeeeeeedle big en
+  neeeeeeeeeeeedle
+                 ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                  V
+t neeeeeeeeeeeedle big en
+                  neeeeeeeeeeeedle
+                  ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                   V
+t neeeeeeeeeeeedle big en
+                   neeeeeeeeeeeedle
+                   ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                    V
+t neeeeeeeeeeeedle big en
+                    neeeeeeeeeeeedle
+                    ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                     V
+t neeeeeeeeeeeedle big en
+                     neeeeeeeeeeeedle
+                     ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                      V
+t neeeeeeeeeeeedle big en
+                      neeeeeeeeeeeedle
+                      ^
+-------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+-------------------------
+                       V
+t neeeeeeeeeeeedle big en
+                       neeeeeeeeeeeedle
+                       ^
+-------------------------
+
+characters match, move carriage
+-------------------------
+                        V
+t neeeeeeeeeeeedle big en
+                        neeeeeeeeeeeedle
+                        ^
+-------------------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset): 2(70)
+Start KMP for 1 part:
+e big enough too
+which has offset: 85
+prefix function initiated for "neeeeeeeeeeeedle" pattern
+prefix function is: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+initial state
+----------------
+V
+e big enough too
+neeeeeeeeeeeedle
+^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+V
+e big enough too
+neeeeeeeeeeeedle
+^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+ V
+e big enough too
+ neeeeeeeeeeeedle
+ ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+  V
+e big enough too
+  neeeeeeeeeeeedle
+  ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+   V
+e big enough too
+   neeeeeeeeeeeedle
+   ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+    V
+e big enough too
+    neeeeeeeeeeeedle
+    ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+     V
+e big enough too
+     neeeeeeeeeeeedle
+     ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+      V
+e big enough too
+      neeeeeeeeeeeedle
+      ^
+----------------
+
+characters match, move carriage
+----------------
+       V
+e big enough too
+       neeeeeeeeeeeedle
+       ^
+----------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+----------------
+        V
+e big enough too
+       neeeeeeeeeeeedle
+        ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+        V
+e big enough too
+        neeeeeeeeeeeedle
+        ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+         V
+e big enough too
+         neeeeeeeeeeeedle
+         ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+          V
+e big enough too
+          neeeeeeeeeeeedle
+          ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+           V
+e big enough too
+           neeeeeeeeeeeedle
+           ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+            V
+e big enough too
+            neeeeeeeeeeeedle
+            ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+             V
+e big enough too
+             neeeeeeeeeeeedle
+             ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+              V
+e big enough too
+              neeeeeeeeeeeedle
+              ^
+----------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+----------------
+               V
+e big enough too
+               neeeeeeeeeeeedle
+               ^
+----------------
+
+can't move carriage, end of string
+positions of needle in this haystack (with global offset):
+
+========END LOG========

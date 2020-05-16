@@ -1,0 +1,412 @@
+==========OUT==========
+8,17,18,23,24,25,26
+========END OUT========
+
+==========LOG==========
+prefix function initiated for "aaaa" pattern
+prefix function is: 0 1 2 3
+
+initial state
+------------------------------
+V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+aaaa
+^
+------------------------------
+
+characters match, move carriage
+------------------------------
+V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+aaaa
+^
+------------------------------
+
+characters match, move carriage
+------------------------------
+ V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+aaaa
+ ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+  V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+aaaa
+  ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 2
+------------------------------
+   V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+aaaa
+   ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 1
+------------------------------
+   V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+ aaaa
+   ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------
+   V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+  aaaa
+   ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+   V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+   aaaa
+   ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+    V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+    aaaa
+    ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+     V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+    aaaa
+     ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+      V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+    aaaa
+      ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 2
+------------------------------
+       V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+    aaaa
+       ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 1
+------------------------------
+       V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+     aaaa
+       ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------
+       V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+      aaaa
+       ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+       V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+       aaaa
+       ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+        V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+        aaaa
+        ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+         V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+        aaaa
+         ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+          V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+        aaaa
+          ^
+------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------
+           V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+        aaaa
+           ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 2
+------------------------------
+            V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+         aaaa
+            ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 1
+------------------------------
+            V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+          aaaa
+            ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------
+            V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+           aaaa
+            ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+            V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+            aaaa
+            ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+             V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+             aaaa
+             ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+              V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+             aaaa
+              ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+               V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+             aaaa
+               ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 2
+------------------------------
+                V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+             aaaa
+                ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 1
+------------------------------
+                V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+              aaaa
+                ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------
+                V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+               aaaa
+                ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                aaaa
+                ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+                 V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                 aaaa
+                 ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+                  V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                 aaaa
+                  ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+                   V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                 aaaa
+                   ^
+------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------
+                    V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                 aaaa
+                    ^
+------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------
+                     V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                  aaaa
+                     ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 2
+------------------------------
+                      V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                   aaaa
+                      ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 1
+------------------------------
+                      V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                    aaaa
+                      ^
+------------------------------
+
+characters don't match, set pattern carriage on 
+prefix function of previous symbol: 0
+------------------------------
+                      V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                     aaaa
+                      ^
+------------------------------
+
+mismatch on first symbol of pattern,
+move haystack carriage
+------------------------------
+                      V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                      aaaa
+                      ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+                       V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                       aaaa
+                       ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+                        V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                       aaaa
+                        ^
+------------------------------
+
+characters match, move carriage
+------------------------------
+                         V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                       aaaa
+                         ^
+------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------
+                          V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                       aaaa
+                          ^
+------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------
+                           V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                        aaaa
+                           ^
+------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------
+                            V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                         aaaa
+                            ^
+------------------------------
+
+pattern carriage equal to pattern size
+it means, we found pattern in text
+characters match, move carriage
+------------------------------
+                             V
+aaabaaabaaaabaaabaaaaabaaaaaaa
+                          aaaa
+                             ^
+------------------------------
+
+can't move carriage, end of string
+========END LOG========
