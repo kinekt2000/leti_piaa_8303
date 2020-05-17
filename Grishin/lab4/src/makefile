@@ -2,7 +2,7 @@ CC = g++
 CFLAGS = -g -std=c++17
 
 all:
-	@echo choose programm [KMP_search, cyclic_shift, split_text]
+	@echo "choose programm [KMP_search, cyclic_shift, split_text]"
 
 KMP_search: KMP_search.o
 	$(CC) $(CFLAGS) KMP_search.o -o KMP_search
