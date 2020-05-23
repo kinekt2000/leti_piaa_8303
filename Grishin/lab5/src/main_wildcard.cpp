@@ -19,7 +19,7 @@ int main()
     auto pos = w.search(text);
 
     for(auto p: pos){
-        std::cout << p << std::endl;
+        std::cout << p+1 << std::endl;
     }
 
     return 0;
