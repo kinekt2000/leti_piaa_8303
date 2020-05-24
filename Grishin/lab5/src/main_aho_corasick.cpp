@@ -39,7 +39,7 @@ int main()
         {
             size_t string_number = std::find(string_lib.begin(), string_lib.end(), string_item)
                                  - string_lib.begin();
-            std::cout << index_item.first << " " << string_number << std::endl;
+            std::cout << index_item.first+1 << " " << string_number+1 << std::endl;
         }
     }
 
