@@ -1,0 +1,362 @@
+============OUT============
+1
+19
+==========END OUT==========
+
+
+============LOG============
+add key: ABC
+trie is empty, root created
+create children with character: A
+create children with character: B
+create children with character: C
+
+add key: BC
+create children with character: B
+create children with character: C
+
+add key: C
+create children with character: C
+
+Machinizer initiated
+built suffix link for 0 node. 
+suffix-link calculator initiated for node: 0
+suffix[root] = root
+Suffix link leads to 0 node
+
+built suffix link for 1 node. 
+suffix-link calculator initiated for node: 1
+this is a child of root. suffix = root
+Suffix link leads to 0 node
+
+built suffix link for 4 node. 
+suffix-link calculator initiated for node: 4
+this is a child of root. suffix = root
+Suffix link leads to 0 node
+
+built suffix link for 6 node. 
+suffix-link calculator initiated for node: 6
+this is a child of root. suffix = root
+Suffix link leads to 0 node
+
+built suffix link for 2 node. 
+suffix-link calculator initiated for node: 2
+parent suffix 0jump through suffix link
+child found: 4 id. Set suffix link on it
+Suffix link leads to 4 node
+
+built suffix link for 5 node. 
+suffix-link calculator initiated for node: 5
+parent suffix 0jump through suffix link
+child found: 6 id. Set suffix link on it
+Suffix link leads to 6 node
+
+built suffix link for 3 node. 
+suffix-link calculator initiated for node: 3
+parent suffix 4jump through suffix link
+child found: 5 id. Set suffix link on it
+Suffix link leads to 5 node
+
+search initiated. Initial state is root
+~~~calculate new state
+current state has child with 'A' character. Its id is 1
+~~~new state is 1
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'B' character. Its id is 2
+~~~new state is 2
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 4
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'C' character. Its id is 3
+~~~new state is 3
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 3 is end of pattern. pattern found on position 0
+supposed full pattern positions: 0 
+go deeper on the suffix link. Now, state to check is 5
+state 5 is end of pattern. pattern found on position 1
+supposed full pattern positions: nowhere
+go deeper on the suffix link. Now, state to check is 6
+state 6 is end of pattern. pattern found on position 2
+supposed full pattern positions: nowhere
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 'f' character. Set state as suffix link. New state is 5
+There is no child with 'f' character. Set state as suffix link. New state is 6
+There is no child with 'f' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'B' character. Its id is 4
+~~~new state is 4
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'C' character. Its id is 5
+~~~new state is 5
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 5 is end of pattern. pattern found on position 5
+supposed full pattern positions: 0 
+go deeper on the suffix link. Now, state to check is 6
+state 6 is end of pattern. pattern found on position 6
+supposed full pattern positions: nowhere
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 'g' character. Set state as suffix link. New state is 6
+There is no child with 'g' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'C' character. Its id is 6
+~~~new state is 6
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 6 is end of pattern. pattern found on position 9
+supposed full pattern positions: 0 
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 'f' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'A' character. Its id is 1
+~~~new state is 1
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'B' character. Its id is 2
+~~~new state is 2
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 4
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'C' character. Its id is 3
+~~~new state is 3
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 3 is end of pattern. pattern found on position 11
+supposed full pattern positions: 11 0 
+go deeper on the suffix link. Now, state to check is 5
+state 5 is end of pattern. pattern found on position 12
+supposed full pattern positions: 7 
+go deeper on the suffix link. Now, state to check is 6
+state 6 is end of pattern. pattern found on position 13
+supposed full pattern positions: 4 
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 'o' character. Set state as suffix link. New state is 5
+There is no child with 'o' character. Set state as suffix link. New state is 6
+There is no child with 'o' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'A' character. Its id is 1
+~~~new state is 1
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'B' character. Its id is 2
+~~~new state is 2
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 4
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'C' character. Its id is 3
+~~~new state is 3
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 3 is end of pattern. pattern found on position 18
+supposed full pattern positions: 18 7 
+go deeper on the suffix link. Now, state to check is 5
+state 5 is end of pattern. pattern found on position 19
+supposed full pattern positions: 14 
+go deeper on the suffix link. Now, state to check is 6
+state 6 is end of pattern. pattern found on position 20
+supposed full pattern positions: 11 
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 's' character. Set state as suffix link. New state is 5
+There is no child with 's' character. Set state as suffix link. New state is 6
+There is no child with 's' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'B' character. Its id is 4
+~~~new state is 4
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'C' character. Its id is 5
+~~~new state is 5
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 5 is end of pattern. pattern found on position 23
+supposed full pattern positions: 18 
+go deeper on the suffix link. Now, state to check is 6
+state 6 is end of pattern. pattern found on position 24
+supposed full pattern positions: 15 
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 'c' character. Set state as suffix link. New state is 6
+There is no child with 'c' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'C' character. Its id is 6
+~~~new state is 6
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 6 is end of pattern. pattern found on position 27
+supposed full pattern positions: 18 
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 's' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'A' character. Its id is 1
+~~~new state is 1
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'B' character. Its id is 2
+~~~new state is 2
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 4
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'C' character. Its id is 3
+~~~new state is 3
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 3 is end of pattern. pattern found on position 29
+supposed full pattern positions: 29 18 
+go deeper on the suffix link. Now, state to check is 5
+state 5 is end of pattern. pattern found on position 30
+supposed full pattern positions: 25 
+go deeper on the suffix link. Now, state to check is 6
+state 6 is end of pattern. pattern found on position 31
+supposed full pattern positions: 22 
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 'a' character. Set state as suffix link. New state is 5
+There is no child with 'a' character. Set state as suffix link. New state is 6
+There is no child with 'a' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'B' character. Its id is 4
+~~~new state is 4
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'C' character. Its id is 5
+~~~new state is 5
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 5 is end of pattern. pattern found on position 34
+supposed full pattern positions: 29 
+go deeper on the suffix link. Now, state to check is 6
+state 6 is end of pattern. pattern found on position 35
+supposed full pattern positions: 26 
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 'd' character. Set state as suffix link. New state is 6
+There is no child with 'd' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'C' character. Its id is 6
+~~~new state is 6
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 6 is end of pattern. pattern found on position 38
+supposed full pattern positions: 29 
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+There is no child with 'a' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+~~~calculate new state
+~~~new state is 0
+
+~~~calculate new state
+current state has child with 'A' character. Its id is 1
+~~~new state is 1
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+~~~calculate new state
+current state has child with 'B' character. Its id is 2
+~~~new state is 2
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 4
+go deeper on the suffix link. Now, state to check is 0
+==========END LOG==========
+

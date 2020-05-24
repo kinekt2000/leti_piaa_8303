@@ -1,0 +1,90 @@
+============OUT============
+2 2
+2 3
+longest suffix-link path size is 2
+first suffix-link path with this size: 
+4 -[TAGT]- 1 -[T]- 0
+longest dictionary-link path size is 1
+first dictionary-link path with this size: 
+4: TAGT
+1: T
+==========END OUT==========
+
+
+============LOG============
+add key: TAGT
+trie is empty, root created
+create children with character: T
+create children with character: A
+create children with character: G
+create children with character: T
+
+add key: TAG
+already have a child with that character, go deeper
+already have a child with that character, go deeper
+already have a child with that character, go deeper
+
+add key: T
+already have a child with that character, go deeper
+
+Machinizer initiated
+built suffix link for 0 node. 
+suffix-link calculator initiated for node: 0
+suffix[root] = root
+Suffix link leads to 0 node
+
+built suffix link for 1 node. 
+suffix-link calculator initiated for node: 1
+this is a child of root. suffix = root
+Suffix link leads to 0 node
+
+built suffix link for 2 node. 
+suffix-link calculator initiated for node: 2
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 3 node. 
+suffix-link calculator initiated for node: 3
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 4 node. 
+suffix-link calculator initiated for node: 4
+parent suffix 0jump through suffix link
+child found: 1 id. Set suffix link on it
+Suffix link leads to 1 node
+
+search initiated. Initial state is root
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+current state has child with 'T' character. Its id is 1
+~~~new state is 1
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 1 is end of pattern. pattern found on position 1
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+current state has child with 'A' character. Its id is 2
+~~~new state is 2
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+current state has child with 'G' character. Its id is 3
+~~~new state is 3
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 3 is end of pattern. pattern found on position 1
+go deeper on the suffix link. Now, state to check is 0
+==========END LOG==========
+

@@ -1,0 +1,456 @@
+============OUT============
+4 1
+13 2
+16 2
+16 3
+longest suffix-link path size is 2
+first suffix-link path with this size: 
+14 -(super_h)- 1 -(h)- 0
+there is no dictionary links
+==========END OUT==========
+
+
+============LOG============
+add key: have
+trie is empty, root created
+create children with character: h
+create children with character: a
+create children with character: v
+create children with character: e
+
+add key: to
+create children with character: t
+create children with character: o
+
+add key: too
+already have a child with that character, go deeper
+already have a child with that character, go deeper
+create children with character: o
+
+add key: super_huge_needle_qwertyqwerty
+create children with character: s
+create children with character: u
+create children with character: p
+create children with character: e
+create children with character: r
+create children with character: _
+create children with character: h
+create children with character: u
+create children with character: g
+create children with character: e
+create children with character: _
+create children with character: n
+create children with character: e
+create children with character: e
+create children with character: d
+create children with character: l
+create children with character: e
+create children with character: _
+create children with character: q
+create children with character: w
+create children with character: e
+create children with character: r
+create children with character: t
+create children with character: y
+create children with character: q
+create children with character: w
+create children with character: e
+create children with character: r
+create children with character: t
+create children with character: y
+
+Machinizer initiated
+built suffix link for 0 node. 
+suffix-link calculator initiated for node: 0
+suffix[root] = root
+Suffix link leads to 0 node
+
+built suffix link for 1 node. 
+suffix-link calculator initiated for node: 1
+this is a child of root. suffix = root
+Suffix link leads to 0 node
+
+built suffix link for 8 node. 
+suffix-link calculator initiated for node: 8
+this is a child of root. suffix = root
+Suffix link leads to 0 node
+
+built suffix link for 5 node. 
+suffix-link calculator initiated for node: 5
+this is a child of root. suffix = root
+Suffix link leads to 0 node
+
+built suffix link for 2 node. 
+suffix-link calculator initiated for node: 2
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 9 node. 
+suffix-link calculator initiated for node: 9
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 6 node. 
+suffix-link calculator initiated for node: 6
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 3 node. 
+suffix-link calculator initiated for node: 3
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 10 node. 
+suffix-link calculator initiated for node: 10
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 7 node. 
+suffix-link calculator initiated for node: 7
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 4 node. 
+suffix-link calculator initiated for node: 4
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 11 node. 
+suffix-link calculator initiated for node: 11
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 12 node. 
+suffix-link calculator initiated for node: 12
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 13 node. 
+suffix-link calculator initiated for node: 13
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 14 node. 
+suffix-link calculator initiated for node: 14
+parent suffix 0jump through suffix link
+child found: 1 id. Set suffix link on it
+Suffix link leads to 1 node
+
+built suffix link for 15 node. 
+suffix-link calculator initiated for node: 15
+parent suffix 1jump through suffix link
+Next suffix. Current node is 0
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 16 node. 
+suffix-link calculator initiated for node: 16
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 17 node. 
+suffix-link calculator initiated for node: 17
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 18 node. 
+suffix-link calculator initiated for node: 18
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 19 node. 
+suffix-link calculator initiated for node: 19
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 20 node. 
+suffix-link calculator initiated for node: 20
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 21 node. 
+suffix-link calculator initiated for node: 21
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 22 node. 
+suffix-link calculator initiated for node: 22
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 23 node. 
+suffix-link calculator initiated for node: 23
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 24 node. 
+suffix-link calculator initiated for node: 24
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 25 node. 
+suffix-link calculator initiated for node: 25
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 26 node. 
+suffix-link calculator initiated for node: 26
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 27 node. 
+suffix-link calculator initiated for node: 27
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 28 node. 
+suffix-link calculator initiated for node: 28
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 29 node. 
+suffix-link calculator initiated for node: 29
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 30 node. 
+suffix-link calculator initiated for node: 30
+parent suffix 0jump through suffix link
+child found: 5 id. Set suffix link on it
+Suffix link leads to 5 node
+
+built suffix link for 31 node. 
+suffix-link calculator initiated for node: 31
+parent suffix 5jump through suffix link
+Next suffix. Current node is 0
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 32 node. 
+suffix-link calculator initiated for node: 32
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 33 node. 
+suffix-link calculator initiated for node: 33
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 34 node. 
+suffix-link calculator initiated for node: 34
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 35 node. 
+suffix-link calculator initiated for node: 35
+parent suffix 0jump through suffix link
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+built suffix link for 36 node. 
+suffix-link calculator initiated for node: 36
+parent suffix 0jump through suffix link
+child found: 5 id. Set suffix link on it
+Suffix link leads to 5 node
+
+built suffix link for 37 node. 
+suffix-link calculator initiated for node: 37
+parent suffix 5jump through suffix link
+Next suffix. Current node is 0
+suffix path led to root, suffix link set on root
+Suffix link leads to 0 node
+
+search initiated. Initial state is root
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+current state has child with 'h' character. Its id is 1
+~~~new state is 1
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+current state has child with 'a' character. Its id is 2
+~~~new state is 2
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+current state has child with 'v' character. Its id is 3
+~~~new state is 3
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+current state has child with 'e' character. Its id is 4
+~~~new state is 4
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 4 is end of pattern. pattern found on position 3
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+There is no child with ' ' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+current state has child with 't' character. Its id is 5
+~~~new state is 5
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+There is no child with ' ' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+
+~~~calculate new state
+current state has child with 't' character. Its id is 5
+~~~new state is 5
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+current state has child with 'o' character. Its id is 6
+~~~new state is 6
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 6 is end of pattern. pattern found on position 12
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+There is no child with ' ' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+
+~~~calculate new state
+current state has child with 't' character. Its id is 5
+~~~new state is 5
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+current state has child with 'o' character. Its id is 6
+~~~new state is 6
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 6 is end of pattern. pattern found on position 15
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+current state has child with 'o' character. Its id is 7
+~~~new state is 7
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+state 7 is end of pattern. pattern found on position 15
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+There is no child with ' ' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+current state has child with 't' character. Its id is 5
+~~~new state is 5
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+
+~~~calculate new state
+There is no child with 'e' character. Set state as suffix link. New state is 0
+~~~new state is 0
+
+
+~~~calculate new state
+~~~new state is 0
+
+
+~~~calculate new state
+current state has child with 't' character. Its id is 5
+~~~new state is 5
+
+new state is not root, we have to check node and its suffix path
+there could be ends of patterns
+go deeper on the suffix link. Now, state to check is 0
+==========END LOG==========
+
